@@ -20,7 +20,7 @@
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
     "FrameData": [],
-    "SerialiseFrameCount": 0,
+    "SerialiseFrameCount": 1,
   },
   "macroPageTiles": {
     "SerialiseWidth": 0,
@@ -28,8 +28,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "The_Twin",
-    "path": "The_Twin.yyp",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet1",
