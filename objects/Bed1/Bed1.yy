@@ -3,7 +3,7 @@
     "name": "bed3",
     "path": "sprites/bed3/bed3.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

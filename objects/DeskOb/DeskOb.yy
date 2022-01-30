@@ -3,7 +3,7 @@
     "name": "Desk",
     "path": "sprites/Desk/Desk.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

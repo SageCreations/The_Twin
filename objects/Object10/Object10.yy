@@ -3,7 +3,7 @@
     "name": "Chair3",
     "path": "sprites/Chair3/Chair3.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

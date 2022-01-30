@@ -3,7 +3,7 @@
     "name": "Mirror1",
     "path": "sprites/Mirror1/Mirror1.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

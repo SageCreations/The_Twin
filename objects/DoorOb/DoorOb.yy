@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "down1",
-    "path": "sprites/down1/down1.yy",
+    "name": "Door",
+    "path": "sprites/Door/Door.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CharacterDown",
-    "path": "folders/Sprites/CharacterDown.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object8",
+  "name": "DoorOb",
   "tags": [],
   "resourceType": "GMObject",
 }
