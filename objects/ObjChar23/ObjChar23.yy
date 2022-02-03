@@ -47,6 +47,8 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"WallOb17","path":"objects/WallOb17/WallOb17.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObMirrorBooksShelf","path":"objects/ObMirrorBooksShelf/ObMirrorBooksShelf.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"DeskOb18","path":"objects/DeskOb18/DeskOb18.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"BotWallOb20","path":"objects/BotWallOb20/BotWallOb20.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"SideWallOb19","path":"objects/SideWallOb19/SideWallOb19.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
