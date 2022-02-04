@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 31,
+  "width": 64,
+  "height": 124,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterDown",
-    "path": "folders/Sprites/CharacterDown.yy",
+    "path": "folders/Sprites/Player Sprites/CharacterDown.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharDown",

@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 19,
-  "height": 32,
+  "width": 76,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterLeft",
-    "path": "folders/Sprites/CharacterLeft.yy",
+    "path": "folders/Sprites/Player Sprites/CharacterLeft.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharLeft",

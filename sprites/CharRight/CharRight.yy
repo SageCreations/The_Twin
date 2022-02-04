@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 18,
-  "height": 32,
+  "width": 72,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterRight",
-    "path": "folders/Sprites/CharacterRight.yy",
+    "path": "folders/Sprites/Player Sprites/CharacterRight.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharRight",

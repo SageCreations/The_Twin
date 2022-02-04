@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 32,
+  "width": 64,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterUp",
-    "path": "folders/Sprites/CharacterUp.yy",
+    "path": "folders/Sprites/Player Sprites/CharacterUp.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharUp",
