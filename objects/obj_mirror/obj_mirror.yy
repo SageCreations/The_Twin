@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "Wall",
-    "path": "sprites/Wall/Wall.yy",
+    "name": "Mirror1",
+    "path": "sprites/Mirror1/Mirror1.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_par_enviroment",
-    "path": "objects/obj_par_enviroment/obj_par_enviroment.yy",
+    "name": "obj_interact",
+    "path": "objects/obj_interact/obj_interact.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,7 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":69,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "WallOb",
+  "name": "obj_mirror",
   "tags": [],
   "resourceType": "GMObject",
 }
