@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "MirrorDoor",
-    "path": "sprites/MirrorDoor/MirrorDoor.yy",
+    "name": "Sprite104105106",
+    "path": "sprites/Sprite104105106/Sprite104105106.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "mirHallDoorob1",
+  "name": "sparkle3031",
   "tags": [],
   "resourceType": "GMObject",
 }

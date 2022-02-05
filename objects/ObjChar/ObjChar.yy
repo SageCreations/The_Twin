@@ -50,7 +50,6 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"SideWallOb19","path":"objects/SideWallOb19/SideWallOb19.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"BotWallOb20","path":"objects/BotWallOb20/BotWallOb20.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"mirHallDoorob1","path":"objects/mirHallDoorob1/mirHallDoorob1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
