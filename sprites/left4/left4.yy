@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterLeft",
-    "path": "folders/Sprites/CharacterLeft.yy",
+    "path": "folders/Sprites/Character_Sprites/CharacterLeft.yy",
   },
   "resourceVersion": "1.0",
   "name": "left4",

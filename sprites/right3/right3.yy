@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterRight",
-    "path": "folders/Sprites/CharacterRight.yy",
+    "path": "folders/Sprites/Character_Sprites/CharacterRight.yy",
   },
   "resourceVersion": "1.0",
   "name": "right3",

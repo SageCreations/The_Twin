@@ -15,3 +15,9 @@ NearMirror = 0;
 /// @DnDHash : 0FADD1C9
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 780662B2
+/// @DnDArgument : "var" "isFridgeOpen"
+global.isFridgeOpen = 0;

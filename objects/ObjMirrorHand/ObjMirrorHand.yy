@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite95",
-    "path": "sprites/Sprite95/Sprite95.yy",
+    "name": "Anim_Hand",
+    "path": "sprites/Anim_Hand/Anim_Hand.yy",
   },
   "solid": false,
   "visible": true,

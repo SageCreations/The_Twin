@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterUp",
-    "path": "folders/Sprites/CharacterUp.yy",
+    "path": "folders/Sprites/Character_Sprites/CharacterUp.yy",
   },
   "resourceVersion": "1.0",
   "name": "CharUp",

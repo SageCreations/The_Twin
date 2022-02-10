@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "CharacterDown",
-    "path": "folders/Sprites/CharacterDown.yy",
+    "path": "folders/Sprites/Character_Sprites/CharacterDown.yy",
   },
   "resourceVersion": "1.0",
   "name": "down7",

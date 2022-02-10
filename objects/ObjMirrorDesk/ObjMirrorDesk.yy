@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "MirrorTable",
-    "path": "sprites/MirrorTable/MirrorTable.yy",
+    "name": "SprMirrorDesk",
+    "path": "sprites/SprMirrorDesk/SprMirrorDesk.yy",
   },
   "solid": true,
   "visible": true,
