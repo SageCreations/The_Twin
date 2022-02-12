@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Furniture.yy",
+    "name": "RegularWorld",
+    "path": "folders/Sprites/Furniture/RegularWorld.yy",
   },
   "resourceVersion": "1.0",
   "name": "Chair1",

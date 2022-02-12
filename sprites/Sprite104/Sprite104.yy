@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "SprSparkle",
+    "path": "folders/Sprites/Effects/SprSparkle.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite104",

@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "MirrorWorld",
+    "path": "folders/Objects/MirrorWorld.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjMirrorCounter2",

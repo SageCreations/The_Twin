@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 68C510E3
-/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("Press E to look into the mirror. ") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Hallway. ");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Kitchen. ");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 1265;$(13_10)	y = 400;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_text(x -75, y -20, string("Press E to #Enter your room. "));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Open Freezer");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		global.isFridgeOpen =1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}"
+/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("Press E to look into the mirror. ") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Hallway. ");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Kitchen. ");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 664;$(13_10)	y = 462;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_text(x -75, y -20, string("Press E to #Enter your room. "));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Open Freezer");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		global.isFridgeOpen =1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Hallway");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room3);$(13_10)		x = 71;$(13_10)		y = 248;$(13_10)		depth = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Living Room");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 636;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter Kitchen");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room4);$(13_10)		x = 492;$(13_10)		y = 519;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorStudyDoor)$(13_10){$(13_10)	draw_text(x -75, y -20, "Press E to Enter the Study");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Study);$(13_10)		x = 237;$(13_10)		y = 246;$(13_10)		depth = 0;$(13_10)	}$(13_10)}"
 if place_meeting(x,y -10, ObjMirrorInteract)
 {
 
@@ -34,8 +34,8 @@ if place_meeting(x,y -10, ObjMirrorHallDoorLeft)
 	{
 	room_goto(Room4);
 	
-	x = 1265;
-	y = 400;
+	x = 664;
+	y = 462;
 	depth = 0;
 	
 	
@@ -69,6 +69,58 @@ if place_meeting(x,y-10, ObjMirrorFridge)
 if !place_meeting(x,y-10,ObjMirrorFridge)
 {
 	global.isFridgeOpen = 0;
+}
+
+if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)
+{
+	draw_text(x -75, y -20, "Press E to Enter Hallway");
+	
+	if keyboard_check_pressed(ord("E"))
+	{
+		room_goto(Room3);
+		x = 71;
+		y = 248;
+		depth = 0;
+	}
+}	
+
+if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)
+{
+	draw_text(x -75, y -20, "Press E to Enter Living Room");
+	
+	if keyboard_check_pressed(ord("E"))
+	{
+		room_goto(LivingRoom);
+		x = 636;
+		y = 252;
+		depth = 0;
+	}
+}
+
+if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)
+{
+	draw_text(x -75, y -20, "Press E to Enter Kitchen");
+	
+	if keyboard_check_pressed(ord("E"))
+	{
+		room_goto(Room4);
+		x = 492;
+		y = 519;
+		depth = 0;
+	}
+}
+
+if place_meeting(x, y+10, ObjMirrorStudyDoor)
+{
+	draw_text(x -75, y -20, "Press E to Enter the Study");
+	
+	if keyboard_check_pressed(ord("E"))
+	{
+		room_goto(Study);
+		x = 237;
+		y = 246;
+		depth = 0;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

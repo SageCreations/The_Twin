@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Character_Sprites",
+    "path": "folders/Sprites/Character_Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "mirror_girl1",

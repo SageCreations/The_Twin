@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Furniture.yy",
+    "name": "MirrorWorld",
+    "path": "folders/Sprites/Furniture/MirrorWorld.yy",
   },
   "resourceVersion": "1.0",
   "name": "mirrorRug",
