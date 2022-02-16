@@ -205,6 +205,7 @@
     {"id":{"name":"ObjMirrorWall","path":"objects/ObjMirrorWall/ObjMirrorWall.yy",},"order":24,},
     {"id":{"name":"Basement_Wall1","path":"sprites/Basement_Wall1/Basement_Wall1.yy",},"order":1,},
     {"id":{"name":"mirrorChair","path":"sprites/mirrorChair/mirrorChair.yy",},"order":5,},
+    {"id":{"name":"SprMirrorTallBookshelfBottomHalf","path":"sprites/SprMirrorTallBookshelfBottomHalf/SprMirrorTallBookshelfBottomHalf.yy",},"order":27,},
     {"id":{"name":"right7","path":"sprites/right7/right7.yy",},"order":6,},
     {"id":{"name":"Empty_Bookshelf","path":"sprites/Empty_Bookshelf/Empty_Bookshelf.yy",},"order":11,},
     {"id":{"name":"down8","path":"sprites/down8/down8.yy",},"order":7,},

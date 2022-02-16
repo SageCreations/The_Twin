@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprMirrorTallBookshelfHalf",
-    "path": "sprites/SprMirrorTallBookshelfHalf/SprMirrorTallBookshelfHalf.yy",
+    "name": "SprMirrorTallBookshelfBottomHalf",
+    "path": "sprites/SprMirrorTallBookshelfBottomHalf/SprMirrorTallBookshelfBottomHalf.yy",
   },
   "solid": false,
   "visible": true,
