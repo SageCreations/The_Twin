@@ -13,11 +13,21 @@ var l53B8705E_0;
 l53B8705E_0 = keyboard_check_pressed(ord("E"));
 if (l53B8705E_0)
 {
-	/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 12C80FDB
+	/// @DnDHash : 2DBA0E9D
 	/// @DnDParent : 53B8705E
-	/// @DnDArgument : "angle" "90"
-	/// @DnDArgument : "angle_relative" "1"
-	image_angle += 90;
+	/// @DnDArgument : "var" "image_angle"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "1440"
+	if(image_angle < 1440)
+	{
+		/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+		/// @DnDVersion : 1
+		/// @DnDHash : 567B524D
+		/// @DnDParent : 2DBA0E9D
+		/// @DnDArgument : "angle" "90"
+		/// @DnDArgument : "angle_relative" "1"
+		image_angle += 90;
+	}
 }
