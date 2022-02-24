@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "SprMirrorBed",
-    "path": "sprites/SprMirrorBed/SprMirrorBed.yy",
+    "name": "SprMirrorShard",
+    "path": "sprites/SprMirrorShard/SprMirrorShard.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MirrorWorld",
-    "path": "folders/Objects/MirrorWorld.yy",
+    "name": "Puzzles",
+    "path": "folders/Objects/Puzzles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjMirrorBed",
+  "name": "ObjMirrorShard1",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,3 +4,4 @@ isPuzzleFinished = false;
 
 tempCounter = 0;
 
+mirrorTrigger1 = false;

@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "SprMirrorBed",
-    "path": "sprites/SprMirrorBed/SprMirrorBed.yy",
+    "name": "mirror_girl1",
+    "path": "sprites/mirror_girl1/mirror_girl1.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +31,7 @@
     "path": "folders/Objects/MirrorWorld.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjMirrorBed",
+  "name": "ObjMirrorTwin",
   "tags": [],
   "resourceType": "GMObject",
 }

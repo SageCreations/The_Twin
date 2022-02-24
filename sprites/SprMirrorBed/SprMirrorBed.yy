@@ -2,7 +2,7 @@
   "bboxMode": 2,
   "collisionKind": 4,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 149,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},"LayerId":{"name":"85999e69-fe61-4042-b1a0-3a515648f880","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Hue_Saturation_1","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},"resourceVersion":"1.0","name":"edb080fe-5e49-4803-9271-46c070ad4825","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},"LayerId":{"name":"85999e69-fe61-4042-b1a0-3a515648f880","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SprMirrorBed","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},"resourceVersion":"1.0","name":"edb080fe-5e49-4803-9271-46c070ad4825","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Hue_Saturation_1","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},
+    "spriteId": {"name":"SprMirrorBed","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"08252377-3708-456a-bb40-3365f53bb8bf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"08252377-3708-456a-bb40-3365f53bb8bf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edb080fe-5e49-4803-9271-46c070ad4825","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 20,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Hue_Saturation_1","path":"sprites/Hue_Saturation_1/Hue_Saturation_1.yy",},
+    "parent": {"name":"SprMirrorBed","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},
     "resourceVersion": "1.3",
-    "name": "Hue_Saturation_1",
+    "name": "SprMirrorBed",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Furniture/MirrorWorld.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Hue_Saturation_1",
+  "name": "SprMirrorBed",
   "tags": [],
   "resourceType": "GMSprite",
 }
