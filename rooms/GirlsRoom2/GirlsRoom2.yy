@@ -47,7 +47,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorLamp","path":"objects/ObjMirrorLamp/ObjMirrorLamp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.5,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":225.0,"y":46.0,"resourceVersion":"1.0","name":"inst_3C19F0C0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjChar23","path":"objects/ObjChar23/ObjChar23.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":568.0,"y":348.0,"resourceVersion":"1.0","name":"inst_61E655C0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorGirlsDoor","path":"objects/ObjMirrorGirlsDoor/ObjMirrorGirlsDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-0.2,"scaleX":2.7,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":81.0,"y":660.0,"resourceVersion":"1.0","name":"inst_B2838CD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"ObjTextBox","path":"objects/ObjTextBox/ObjTextBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":397.0,"y":565.0,"resourceVersion":"1.0","name":"inst_46E4E232","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"assets":[
             {"spriteId":{"name":"MirrorFloor","path":"sprites/MirrorFloor/MirrorFloor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":672.0,"resourceVersion":"1.0","name":"graphic_662BB3E3","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -169,7 +168,6 @@
     {"name":"inst_6751AD55","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},
     {"name":"inst_B2838CD","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},
     {"name":"inst_715EC132","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},
-    {"name":"inst_46E4E232","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

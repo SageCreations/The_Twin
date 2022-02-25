@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "CharDown",
-    "path": "sprites/CharDown/CharDown.yy",
+    "name": "CharLeft",
+    "path": "sprites/CharLeft/CharLeft.yy",
   },
   "solid": false,
   "visible": true,
@@ -50,6 +50,8 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjMirrorSideWall","path":"objects/ObjMirrorSideWall/ObjMirrorSideWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjMirrorBotWall","path":"objects/ObjMirrorBotWall/ObjMirrorBotWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjMirrorHallDoorRight","path":"objects/ObjMirrorHallDoorRight/ObjMirrorHallDoorRight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjHalfBed","path":"objects/ObjHalfBed/ObjHalfBed.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjHalfBed2","path":"objects/ObjHalfBed2/ObjHalfBed2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
