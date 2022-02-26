@@ -11,6 +11,6 @@ if keyboard_check_pressed(vk_space)
 	{
 		instance_destroy();
 		creator.alarm[1] = 1;
-		global.counter = 2;
+		global.counter = 1;
 	}
 }

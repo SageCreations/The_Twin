@@ -1,15 +1,51 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 6E8A8466
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)if y <= 106$(13_10){$(13_10)	y = 106;$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)	y -=1.8;$(13_10)}"
 /// @description Insert description here
 // You can write your code in this editor
-if y <= 106
+if (global.counter = 1)
 {
-	y = 106;
-}
-
+			if (myTextBox2 == noone)
+					{
+						
+						myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);
+						myTextBox2.text = myText2;
+						myTextBox2.creator = self;
+					}	
+}				
 else
 {
-	y -=1.8;
+	if (myTextBox2 != noone)
+		{
+			
+			instance_destroy(myTextBox2);
+			
+			myTextBox2 = noone;
+		}
+}
+
+if (global.counter = 2)
+{
+	if (myTextBox3 == noone)
+					{
+						
+						myTextBox3 = instance_create_layer(372, 549, "Text", ObjTextBoxLargeText);
+						myTextBox3.text = myText3;
+						myTextBox3.creator = self;
+					}	
+}				
+else
+{
+	if (myTextBox3 != noone)
+		{
+			
+			instance_destroy(myTextBox3);
+			
+			myTextBox3 = noone;
+		}
+}
+
+if (global.counter = 3)
+{
+	if (y > 94)
+	{
+		y = y - 1.8;
+	}
 }

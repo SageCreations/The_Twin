@@ -10,4 +10,4 @@ boxWidth = sprite_get_width(SprTextBox);
 
 stringHeight = string_height(text);
 
-chosenText = Fnt_Text;
+chosenText = Fnt_Text_Small;
