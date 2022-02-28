@@ -24,4 +24,3 @@ if (alpha = 0)
 {
 	global.temp = 2;
 }
-

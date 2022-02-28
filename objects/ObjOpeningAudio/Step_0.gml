@@ -62,34 +62,58 @@ if(global.temp == 2)
 /// @DnDArgument : "value" "3"
 if(global.temp == 3)
 {
+	/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+	/// @DnDVersion : 1
+	/// @DnDHash : 574441FC
+	/// @DnDParent : 3401E059
+	/// @DnDArgument : "sound" "Audio__four_voices_whispering"
+	/// @DnDSaveInfo : "sound" "Audio__four_voices_whispering"
+	audio_sound_gain(Audio__four_voices_whispering, 1, 0);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0EED058D
+/// @DnDArgument : "var" "global.temp"
+/// @DnDArgument : "value" "6"
+if(global.temp == 6)
+{
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 64063EBD
-	/// @DnDParent : 3401E059
+	/// @DnDHash : 22343A50
+	/// @DnDParent : 0EED058D
 	/// @DnDArgument : "var" "thunderTrig"
 	/// @DnDArgument : "value" "false"
 	if(thunderTrig == false)
 	{
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 02770A90
+		/// @DnDParent : 22343A50
+		/// @DnDArgument : "soundid" "Audio__four_voices_whispering"
+		/// @DnDSaveInfo : "soundid" "Audio__four_voices_whispering"
+		audio_stop_sound(Audio__four_voices_whispering);
+	
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
-		/// @DnDHash : 6E1D9B2D
-		/// @DnDParent : 64063EBD
+		/// @DnDHash : 0E537D3A
+		/// @DnDParent : 22343A50
 		/// @DnDArgument : "soundid" "Audio__thunder"
 		/// @DnDSaveInfo : "soundid" "Audio__thunder"
 		audio_play_sound(Audio__thunder, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 61F2263B
-		/// @DnDParent : 64063EBD
+		/// @DnDHash : 701FE2D6
+		/// @DnDParent : 22343A50
 		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "var" "thunderTrig"
 		thunderTrig = true;
 	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 42C1D7F6
-		/// @DnDParent : 64063EBD
+		/// @DnDHash : 480551FE
+		/// @DnDParent : 22343A50
 		/// @DnDArgument : "room" "OpeningRoom2"
 		/// @DnDSaveInfo : "room" "OpeningRoom2"
 		room_goto(OpeningRoom2);

@@ -4,5 +4,6 @@
 	
 //draw_text(168, 97, "Over, Under, In Between");
 
-draw_text_color(x, y, "In Between...", c_white, c_white, c_white, c_white, alpha);
 
+
+draw_text_color(600, 369, "In Between...", c_white, c_white, c_white, c_white, alpha1);

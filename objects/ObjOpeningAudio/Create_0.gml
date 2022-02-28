@@ -11,5 +11,6 @@ thunderTrig = false;
 /// @DnDVersion : 1
 /// @DnDHash : 52062202
 /// @DnDArgument : "soundid" "Audio__four_voices_whispering"
+/// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "Audio__four_voices_whispering"
-audio_play_sound(Audio__four_voices_whispering, 0, 0);
+audio_play_sound(Audio__four_voices_whispering, 0, 1);

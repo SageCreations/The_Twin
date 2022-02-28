@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if place_meeting(x, y + 20, ObjChar)
+if place_meeting(x - 20, y + 20, ObjChar)
 {
 	if keyboard_check(ord("E"))
 	{

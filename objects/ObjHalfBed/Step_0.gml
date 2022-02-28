@@ -8,6 +8,7 @@ if place_meeting(x - 15 , y, ObjChar)
 			{
 				myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);
 				myTextBox.text = myText;
+				myTextBox.creator = self;
 			}
 	}
 }

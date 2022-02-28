@@ -2,4 +2,6 @@
 // You can write your code in this editor
 
 alpha = 0.01;
+
+
 count = 0;
