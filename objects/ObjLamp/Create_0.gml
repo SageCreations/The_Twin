@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+lampTrig = false;
 
 myTextBox =noone;
 global.isNotDark = false;

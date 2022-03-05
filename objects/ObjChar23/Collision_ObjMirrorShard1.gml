@@ -22,6 +22,13 @@ image_index = 0;
 /// @DnDSaveInfo : "room" "Room4"
 room_goto(Room4);
 
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 5700F824
+/// @DnDArgument : "soundid" "_352410__reacthor__space_energy_generator"
+/// @DnDSaveInfo : "soundid" "_352410__reacthor__space_energy_generator"
+audio_stop_sound(_352410__reacthor__space_energy_generator);
+
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 0183C02C
