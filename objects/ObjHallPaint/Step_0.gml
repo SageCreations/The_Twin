@@ -1,9 +1,23 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7E4E4FD5
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)"
+/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)$(13_10)if(place_meeting(x, y +100,ObjChar23))$(13_10){$(13_10)	if keyboard_check(ord("E"))$(13_10)	{$(13_10)		global.speedTrig = true;$(13_10)		if (myTextBox == noone)$(13_10)		{$(13_10)			myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)			myTextBox.text = myText;$(13_10)			myTextBox.creator = self;$(13_10)		}$(13_10)	}$(13_10)}"
 /// @description Insert description here
 // You can write your code in this editor
+
+if(place_meeting(x, y +100,ObjChar23))
+{
+	if keyboard_check(ord("E"))
+	{
+		global.speedTrig = true;
+		if (myTextBox == noone)
+		{
+			myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);
+			myTextBox.text = myText;
+			myTextBox.creator = self;
+		}
+	}
+}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
