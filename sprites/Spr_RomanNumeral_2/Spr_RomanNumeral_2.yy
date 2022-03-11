@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Puzzle3",
-    "path": "folders/Sprites/Puzzles/Puzzle3.yy",
+    "name": "RomanNumerals",
+    "path": "folders/Sprites/Puzzles/Puzzle3/RomanNumerals.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_RomanNumeral_2",
