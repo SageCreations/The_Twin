@@ -3,7 +3,7 @@
     "name": "SprGrandFatherClock",
     "path": "sprites/SprGrandFatherClock/SprGrandFatherClock.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

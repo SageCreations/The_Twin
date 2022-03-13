@@ -477,9 +477,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
     {"roomId":{"name":"OpeningRoom","path":"rooms/OpeningRoom/OpeningRoom.yy",},},
     {"roomId":{"name":"OpeningRoom2","path":"rooms/OpeningRoom2/OpeningRoom2.yy",},},
-    {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},

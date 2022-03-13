@@ -3,7 +3,7 @@
     "name": "SprMirrorTopOfBookshelf",
     "path": "sprites/SprMirrorTopOfBookshelf/SprMirrorTopOfBookshelf.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

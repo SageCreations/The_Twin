@@ -21,3 +21,17 @@ image_speed = 0;
 /// @DnDHash : 780662B2
 /// @DnDArgument : "var" "isFridgeOpen"
 global.isFridgeOpen = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 227230EA
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "isInRoomPuzzle2"
+isInRoomPuzzle2 = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 634FDC8D
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.goToPuz2"
+global.goToPuz2 = false;

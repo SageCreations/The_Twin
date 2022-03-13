@@ -3,7 +3,7 @@
     "name": "SprMirrorTallBookshelfBottomHalf",
     "path": "sprites/SprMirrorTallBookshelfBottomHalf/SprMirrorTallBookshelfBottomHalf.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
