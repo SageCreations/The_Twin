@@ -3,7 +3,7 @@
     "name": "SprMirrorStudyWall",
     "path": "sprites/SprMirrorStudyWall/SprMirrorStudyWall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -343,6 +343,7 @@
     {"id":{"name":"Spr_SmallHand","path":"sprites/Spr_SmallHand/Spr_SmallHand.yy",},"order":0,},
     {"id":{"name":"Spr_Hand0","path":"sprites/Spr_Hand0/Spr_Hand0.yy",},"order":5,},
     {"id":{"name":"SprRitualCircle","path":"sprites/SprRitualCircle/SprRitualCircle.yy",},"order":28,},
+    {"id":{"name":"InteractWithObject","path":"scripts/InteractWithObject/InteractWithObject.yy",},"order":0,},
     {"id":{"name":"Medium_Rug","path":"sprites/Medium_Rug/Medium_Rug.yy",},"order":16,},
     {"id":{"name":"ObjBook1M","path":"objects/ObjBook1M/ObjBook1M.yy",},"order":0,},
     {"id":{"name":"Piece11","path":"sprites/Piece11/Piece11.yy",},"order":12,},
@@ -480,6 +481,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
     {"roomId":{"name":"OpeningRoom","path":"rooms/OpeningRoom/OpeningRoom.yy",},},
@@ -490,7 +492,6 @@
     {"roomId":{"name":"GirlsRoom","path":"rooms/GirlsRoom/GirlsRoom.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"LivingRoom","path":"rooms/LivingRoom/LivingRoom.yy",},},
-    {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
     {"roomId":{"name":"MasterBedroom","path":"rooms/MasterBedroom/MasterBedroom.yy",},},
     {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
   ],
