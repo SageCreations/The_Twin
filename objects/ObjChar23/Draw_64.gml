@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 68C510E3
-/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("!") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 664;$(13_10)	y = 462;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, string("!"));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	if global.isFridgeOpen = 0$(13_10)	{$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	}$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		global.isFridgeOpen =1;$(13_10)		$(13_10)	}$(13_10)	$(13_10)	if global.isFridgeOpen = 1$(13_10)	{$(13_10)	draw_text(x + 25, y -50, "!")$(13_10)	if keyboard_check_pressed(ord("R"))$(13_10)	{$(13_10)		room_goto(PuzzleRoom1);$(13_10)		x = 625;$(13_10)		y = 615;$(13_10)		depth = 0;$(13_10)	}$(13_10)	}$(13_10)}$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room3);$(13_10)		x = 71;$(13_10)		y = 248;$(13_10)		depth = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 636;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room4);$(13_10)		x = 492;$(13_10)		y = 519;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorStudyDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Study);$(13_10)		x = 237;$(13_10)		y = 246;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorMasterBedDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(MasterBedroom);$(13_10)		x = 247;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1049;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y -10, ObjMirrorMasterToLiving)$(13_10){$(13_10)	draw_text(x -75, y -20, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1280;$(13_10)		y = 370;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 100, ObjMirrorTv)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 20, y - 50, "!");$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10) draw_set_font(Fnt_Text);	$(13_10)}"
+/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("!") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 664;$(13_10)	y = 462;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, string("!"));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	if global.isFridgeOpen = 0$(13_10)	{$(13_10)		draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)			if keyboard_check_pressed(ord("E"))$(13_10)			{$(13_10)				global.isFridgeOpen = 1;$(13_10)		$(13_10)			}$(13_10)	}$(13_10)	$(13_10)	$(13_10)	$(13_10)	$(13_10)}$(13_10)$(13_10)if global.isFridgeOpen = 1$(13_10)	{$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, "!")$(13_10)	}$(13_10)$(13_10)$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room3);$(13_10)		x = 71;$(13_10)		y = 248;$(13_10)		depth = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 636;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room4);$(13_10)		x = 492;$(13_10)		y = 519;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorStudyDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Study);$(13_10)		x = 237;$(13_10)		y = 246;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorMasterBedDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(MasterBedroom);$(13_10)		x = 247;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1049;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y -10, ObjMirrorMasterToLiving)$(13_10){$(13_10)	draw_text(x -75, y -20, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1280;$(13_10)		y = 370;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 100, ObjMirrorTv)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 20, y - 50, "!");$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10) draw_set_font(Fnt_Text);	$(13_10)}"
 if place_meeting(x,y -10, ObjMirrorInteract)
 {
 
@@ -22,8 +22,6 @@ if place_meeting(x,y +10, ObjMirrorGirlsDoor)
 	x = 1260;
 	y = 248;
 	depth = 0;
-	
-	
 	}
 }
 
@@ -63,27 +61,27 @@ if place_meeting(x,y-10, ObjMirrorFridge)
 {
 	if global.isFridgeOpen = 0
 	{
-	draw_text(x + 25, y -50, "!");
-	}
+		draw_text(x + 25, y -50, "!");
 	
-	if keyboard_check_pressed(ord("E"))
-	{
-		global.isFridgeOpen =1;
+			if keyboard_check_pressed(ord("E"))
+			{
+				global.isFridgeOpen = 1;
 		
+			}
 	}
 	
-	if global.isFridgeOpen = 1
-	{
-	draw_text(x + 25, y -50, "!")
-	if keyboard_check_pressed(ord("R"))
-	{
-		room_goto(PuzzleRoom1);
-		x = 625;
-		y = 615;
-		depth = 0;
-	}
-	}
+	
+	
+	
 }
+
+if global.isFridgeOpen = 1
+	{
+		draw_set_color(c_red);
+		draw_text(x + 25, y -50, "!")
+	}
+
+
 
 if !place_meeting(x,y-10,ObjMirrorFridge)
 {

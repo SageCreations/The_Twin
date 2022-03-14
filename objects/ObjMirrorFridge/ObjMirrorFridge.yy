@@ -3,7 +3,7 @@
     "name": "SprMirrorFridgeClose",
     "path": "sprites/SprMirrorFridgeClose/SprMirrorFridgeClose.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

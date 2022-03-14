@@ -42,6 +42,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorChairRight","path":"objects/ObjMirrorChairRight/ObjMirrorChairRight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":160.0,"resourceVersion":"1.0","name":"inst_7F1F3141","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorChairRight","path":"objects/ObjMirrorChairRight/ObjMirrorChairRight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":256.0,"resourceVersion":"1.0","name":"inst_E9B5029","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorChair","path":"objects/ObjMirrorChair/ObjMirrorChair.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.5,"scaleY":3.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":352.0,"resourceVersion":"1.0","name":"inst_3F0B6F5E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjChar23","path":"objects/ObjChar23/ObjChar23.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":352.0,"resourceVersion":"1.0","name":"inst_4A61B843","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":50,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"instances":[
             {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorWall","path":"objects/ObjMirrorWall/ObjMirrorWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_67147E15","tags":[],"resourceType":"GMRInstance",},
@@ -111,6 +112,7 @@
     {"name":"inst_3F0B6F5E","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_7E6AB810","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_2F307F75","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_4A61B843","path":"rooms/Room4/Room4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

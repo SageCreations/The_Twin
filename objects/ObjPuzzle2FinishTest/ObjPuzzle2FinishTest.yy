@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "SprRitualCircle",
-    "path": "sprites/SprRitualCircle/SprRitualCircle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects/Puzzles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjRitualCircle2",
+  "name": "ObjPuzzle2FinishTest",
   "tags": [],
   "resourceType": "GMObject",
 }
