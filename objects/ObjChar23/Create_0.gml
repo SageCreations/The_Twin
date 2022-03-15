@@ -35,3 +35,24 @@ isInRoomPuzzle2 = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "global.goToPuz2"
 global.goToPuz2 = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3C3BAEDA
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.hasShard1"
+global.hasShard1 = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 377104DC
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.hasShard2"
+global.hasShard2 = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 22226AA8
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.speedTrig"
+global.speedTrig = false;

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (x = 998 && y = 152)
+if (x = 792 && y = 161)
 {
 	global.isRight3 = true;
 }

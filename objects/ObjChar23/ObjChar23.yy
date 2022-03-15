@@ -81,6 +81,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjClockBigHand","path":"objects/ObjClockBigHand/ObjClockBigHand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjClockSmallHand","path":"objects/ObjClockSmallHand/ObjClockSmallHand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjMirrorShard2","path":"objects/ObjMirrorShard2/ObjMirrorShard2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjAltar2","path":"objects/ObjAltar2/ObjAltar2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

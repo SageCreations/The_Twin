@@ -18,9 +18,9 @@ image_index = 0;
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 4B6801A2
-/// @DnDArgument : "room" "Room4"
-/// @DnDSaveInfo : "room" "Room4"
-room_goto(Room4);
+/// @DnDArgument : "room" "LivingRoom"
+/// @DnDSaveInfo : "room" "LivingRoom"
+room_goto(LivingRoom);
 
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
@@ -33,15 +33,15 @@ audio_stop_sound(_352410__reacthor__space_energy_generator);
 /// @DnDVersion : 1
 /// @DnDHash : 0183C02C
 /// @DnDInput : 2
-/// @DnDArgument : "value" "787"
-/// @DnDArgument : "value_1" "325"
+/// @DnDArgument : "value" "309"
+/// @DnDArgument : "value_1" "282"
 /// @DnDArgument : "instvar_1" "1"
-x = 787;
-y = 325;
+x = 309;
+y = 282;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 68326501
+/// @DnDHash : 060B4D63
 /// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "global.hasShard1"
-global.hasShard1 = true;
+/// @DnDArgument : "var" "global.hasShard2"
+global.hasShard2 = true;

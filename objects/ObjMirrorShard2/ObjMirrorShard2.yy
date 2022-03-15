@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprPuzzleWall",
-    "path": "sprites/SprPuzzleWall/SprPuzzleWall.yy",
+    "name": "SprMirrorShard",
+    "path": "sprites/SprMirrorShard/SprMirrorShard.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Puzzles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjPuzzleWall",
+  "name": "ObjMirrorShard2",
   "tags": [],
   "resourceType": "GMObject",
 }
