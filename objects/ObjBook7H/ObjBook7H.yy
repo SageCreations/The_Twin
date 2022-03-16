@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_book_7_H",
-    "path": "sprites/Spr_book_7_H/Spr_book_7_H.yy",
+    "name": "Spr_Book_7_H",
+    "path": "sprites/Spr_Book_7_H/Spr_Book_7_H.yy",
   },
   "solid": false,
   "visible": true,

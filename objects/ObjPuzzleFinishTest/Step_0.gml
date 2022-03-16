@@ -42,9 +42,9 @@ if(global.isPuzzleFinished == true)
 	/// @DnDHash : 4F92DE28
 	/// @DnDParent : 4E7EE792
 	/// @DnDArgument : "sound" "_352410__reacthor__space_energy_generator"
-	/// @DnDArgument : "volume" ".1"
+	/// @DnDArgument : "volume" ".2"
 	/// @DnDSaveInfo : "sound" "_352410__reacthor__space_energy_generator"
-	audio_sound_gain(_352410__reacthor__space_energy_generator, .1, 0);
+	audio_sound_gain(_352410__reacthor__space_energy_generator, .2, 0);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -67,8 +67,8 @@ if(global.isPuzzleFinished == true)
 		/// @DnDHash : 7C26C401
 		/// @DnDParent : 1C053568
 		/// @DnDArgument : "sound" "_352410__reacthor__space_energy_generator"
-		/// @DnDArgument : "volume" ".05"
+		/// @DnDArgument : "volume" ".2"
 		/// @DnDSaveInfo : "sound" "_352410__reacthor__space_energy_generator"
-		audio_sound_gain(_352410__reacthor__space_energy_generator, .05, 0);
+		audio_sound_gain(_352410__reacthor__space_energy_generator, .2, 0);
 	}
 }

@@ -38,10 +38,3 @@ audio_stop_sound(_352410__reacthor__space_energy_generator);
 /// @DnDArgument : "instvar_1" "1"
 x = 787;
 y = 325;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 68326501
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "global.hasShard1"
-global.hasShard1 = true;
