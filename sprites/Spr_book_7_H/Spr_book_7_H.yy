@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},"LayerId":{"name":"54f2cd4a-a0b0-40f8-bf82-d91cf12db541","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Book_7_H","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},"resourceVersion":"1.0","name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},"LayerId":{"name":"54f2cd4a-a0b0-40f8-bf82-d91cf12db541","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_book_7_H","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},"resourceVersion":"1.0","name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Book_7_H","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},
+    "spriteId": {"name":"Spr_book_7_H","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"dfbf469d-7803-489c-9216-9aaa6f207932","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dfbf469d-7803-489c-9216-9aaa6f207932","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0acb13e6-e328-4e83-9d15-bed6fb8521c5","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 692,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Book_7_H","path":"sprites/Spr_Book_7_H/Spr_Book_7_H.yy",},
+    "parent": {"name":"Spr_book_7_H","path":"sprites/Spr_book_7_H/Spr_book_7_H.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Book_7_H",
+    "name": "Spr_book_7_H",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Puzzles/Puzzle3/Books.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Book_7_H",
+  "name": "Spr_book_7_H",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Spr_book_7_H",
-    "path": "sprites/Spr_book_7_H/Spr_book_7_H.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Books",
-    "path": "folders/Objects/Puzzles/Puzzle3/Books.yy",
+    "name": "Puzzle3",
+    "path": "folders/Objects/Puzzles/Puzzle3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjBook7H",
+  "name": "ObjPopup",
   "tags": [],
   "resourceType": "GMObject",
 }
