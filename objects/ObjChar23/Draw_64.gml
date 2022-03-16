@@ -1,19 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 68C510E3
-/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)draw_set_font(Fnt_Text_Enlarged);$(13_10)draw_set_color(c_red);$(13_10)draw_text(x + 25, y - 50, "!");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 664;$(13_10)	y = 462;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_set_font(Fnt_Text_Enlarged)$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, string("!"));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	if global.isFridgeOpen = 0$(13_10)	{$(13_10)		draw_set_font(Fnt_Text_Enlarged);$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)			if keyboard_check_pressed(ord("E"))$(13_10)			{$(13_10)				global.isFridgeOpen = 1;$(13_10)		$(13_10)			}$(13_10)	}$(13_10)	$(13_10)	$(13_10)	$(13_10)	$(13_10)}$(13_10)$(13_10)if global.isFridgeOpen = 1$(13_10)	{$(13_10)		draw_set_font(Fnt_Text_Enlarged);$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, "!")$(13_10)	}$(13_10)$(13_10)$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room3);$(13_10)		x = 71;$(13_10)		y = 248;$(13_10)		depth = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 636;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room4);$(13_10)		x = 492;$(13_10)		y = 519;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorStudyDoor)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Study);$(13_10)		x = 237;$(13_10)		y = 246;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorMasterBedDoor)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(MasterBedroom);$(13_10)		x = 247;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1024;$(13_10)		y = 352;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y -10, ObjMirrorMasterToLiving)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged);$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1280;$(13_10)		y = 370;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 100, ObjMirrorTv)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged)$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 50, ObjAltar)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged)$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 50, ObjAltar2)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged)$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)}$(13_10)$(13_10)if place_meeting(x - 50, y - 50, ObjPaper)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged)$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		if(global.hasRead = false)$(13_10)		{$(13_10)		instance_create_layer(325, 17, "Journal", ObjJournal1);$(13_10)		global.hasRead = true;$(13_10)		}$(13_10)		$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)// Grand Father Clock interact$(13_10)interactWithObject(ObjChar23, -10, ObjGrandfatherClock, c_red, "E", PuzzleRoom3, 704, 512);$(13_10)$(13_10)// interact with clock hands$(13_10)interactWithClockHands(ObjChar23, 0, ObjClockSmallHand, c_red, "E", -30);$(13_10)interactWithClockHands(ObjChar23, 0, ObjClockBigHand, c_red, "E", -30);$(13_10)$(13_10)// interact with sparkleButton for bookshelf popup$(13_10)//interactWithObject(ObjChar23, 0, ObjInteractButton, c_red, "E")$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("!") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)$(13_10)if place_meeting(x,y +10, ObjMirrorGirlsDoor)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y - 50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room3);$(13_10)	$(13_10)	x = 1260;$(13_10)	y = 248;$(13_10)	depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x,y -10, ObjMirrorHallDoorLeft)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(Room4);$(13_10)	$(13_10)	x = 664;$(13_10)	y = 462;$(13_10)	depth = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorHallDoorRight)$(13_10)	{$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, string("!"));$(13_10)	$(13_10)		if keyboard_check_pressed(ord("E"))$(13_10)		{$(13_10)		room_goto(GirlsRoom2);$(13_10)	$(13_10)		x = 86;$(13_10)		y = 400;$(13_10)		depth = 0;$(13_10)		}$(13_10)	}$(13_10)$(13_10)if place_meeting(x,y-10, ObjMirrorFridge)$(13_10){$(13_10)	if global.isFridgeOpen = 0$(13_10)	{$(13_10)		draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)			if keyboard_check_pressed(ord("E"))$(13_10)			{$(13_10)				global.isFridgeOpen = 1;$(13_10)		$(13_10)			}$(13_10)	}$(13_10)	$(13_10)	$(13_10)	$(13_10)	$(13_10)}$(13_10)$(13_10)if global.isFridgeOpen = 1$(13_10)	{$(13_10)		draw_set_color(c_red);$(13_10)		draw_text(x + 25, y -50, "!")$(13_10)	}$(13_10)$(13_10)$(13_10)$(13_10)if !place_meeting(x,y-10,ObjMirrorFridge)$(13_10){$(13_10)	global.isFridgeOpen = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room3);$(13_10)		x = 71;$(13_10)		y = 248;$(13_10)		depth = 0;$(13_10)	}$(13_10)}	$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 636;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Room4);$(13_10)		x = 492;$(13_10)		y = 519;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y+10, ObjMirrorStudyDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(Study);$(13_10)		x = 237;$(13_10)		y = 246;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorMasterBedDoor)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(MasterBedroom);$(13_10)		x = 247;$(13_10)		y = 252;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)$(13_10){$(13_10)	draw_text(x + 25, y -50, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1024;$(13_10)		y = 352;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y -10, ObjMirrorMasterToLiving)$(13_10){$(13_10)	draw_text(x -75, y -20, "!")$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)		room_goto(LivingRoom);$(13_10)		x = 1280;$(13_10)		y = 370;$(13_10)		depth = 0;$(13_10)	}$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 100, ObjMirrorTv)$(13_10){$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 20, y - 50, "!");$(13_10)}$(13_10)else$(13_10){$(13_10) draw_set_font(Fnt_Text);	$(13_10)}$(13_10)$(13_10)$(13_10)// Grand Father Clock interact$(13_10)interactWithObject(ObjChar23, -10, ObjGrandfatherClock, c_red, "E", PuzzleRoom3, 704, 512);$(13_10)$(13_10)// interact with clock hands$(13_10)interactWithClockHands(ObjChar23, 0, ObjClockSmallHand, c_red, "E", -30);$(13_10)interactWithClockHands(ObjChar23, 0, ObjClockBigHand, c_red, "E", -30);$(13_10)$(13_10)//interact with the yellow button in the puzzle room 3$(13_10)if (place_meeting(x, y, ObjCheckButton))$(13_10){$(13_10)	drawInteractSymbol(c_red, ObjChar23, "!");	$(13_10)	if keyboard_check_pressed(ord("E")) {$(13_10)		checkIfPuzzleSolved(ObjPuzzle3Run, ObjClockSmallHand, ObjClockBigHand);$(13_10)	}$(13_10)}$(13_10)$(13_10)// interact with sparkleButton for bookshelf popup$(13_10)interactWithObjectPopup(ObjChar23, -40, ObjInteractButton, c_red, "E");$(13_10)$(13_10)// interact with door in puzzle room 3 to go back to the study$(13_10)interactWithObject(ObjChar23, 0, ObjPuzzle3ToStudyDoor, c_red, "E", Study, 896, 192);$(13_10)$(13_10)"
 if place_meeting(x,y -10, ObjMirrorInteract)
 {
-draw_set_font(Fnt_Text_Enlarged);
-draw_set_color(c_red);
-draw_text(x + 25, y - 50, "!");
+
+draw_text(x - 75, y - 20, string("!") + "");
 
 NearMirror = 1;
 }
 
 if place_meeting(x,y +10, ObjMirrorGirlsDoor)
 {
-	draw_set_font(Fnt_Text_Enlarged);
 	draw_set_color(c_red);
 	draw_text(x + 25, y - 50, "!");
 
@@ -29,7 +27,6 @@ if place_meeting(x,y +10, ObjMirrorGirlsDoor)
 
 if place_meeting(x,y -10, ObjMirrorHallDoorLeft)
 {
-	draw_set_font(Fnt_Text_Enlarged);
 	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 
@@ -47,7 +44,6 @@ if place_meeting(x,y -10, ObjMirrorHallDoorLeft)
 
 if place_meeting(x, y-10, ObjMirrorHallDoorRight)
 	{
-		draw_set_font(Fnt_Text_Enlarged)
 		draw_set_color(c_red);
 		draw_text(x + 25, y -50, string("!"));
 	
@@ -65,8 +61,6 @@ if place_meeting(x,y-10, ObjMirrorFridge)
 {
 	if global.isFridgeOpen = 0
 	{
-		draw_set_font(Fnt_Text_Enlarged);
-		draw_set_color(c_red);
 		draw_text(x + 25, y -50, "!");
 	
 			if keyboard_check_pressed(ord("E"))
@@ -83,7 +77,6 @@ if place_meeting(x,y-10, ObjMirrorFridge)
 
 if global.isFridgeOpen = 1
 	{
-		draw_set_font(Fnt_Text_Enlarged);
 		draw_set_color(c_red);
 		draw_text(x + 25, y -50, "!")
 	}
@@ -97,8 +90,6 @@ if !place_meeting(x,y-10,ObjMirrorFridge)
 
 if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 	
 	if keyboard_check_pressed(ord("E"))
@@ -112,8 +103,6 @@ if place_meeting(x, y+10, ObjMirrorKitchenDoorRight)
 
 if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 	
 	if keyboard_check_pressed(ord("E"))
@@ -127,8 +116,6 @@ if place_meeting(x, y+10, ObjMirrorKitchenDoorLeft)
 
 if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 	
 	if keyboard_check_pressed(ord("E"))
@@ -142,8 +129,6 @@ if place_meeting(x, y-10, ObjMirrorLivingRoomToKitchen)
 
 if place_meeting(x, y+10, ObjMirrorStudyDoor)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 	
 	if keyboard_check_pressed(ord("E"))
@@ -157,8 +142,6 @@ if place_meeting(x, y+10, ObjMirrorStudyDoor)
 
 if place_meeting(x, y-10, ObjMirrorMasterBedDoor)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!");
 	
 	if keyboard_check_pressed(ord("E"))
@@ -172,8 +155,6 @@ if place_meeting(x, y-10, ObjMirrorMasterBedDoor)
 
 if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
 	draw_text(x + 25, y -50, "!")
 	
 	if keyboard_check_pressed(ord("E"))
@@ -187,9 +168,7 @@ if place_meeting(x, y-10, ObjMirrorStudyDoorToLiving)
 
 if place_meeting(x, y -10, ObjMirrorMasterToLiving)
 {
-	draw_set_font(Fnt_Text_Enlarged);
-	draw_set_color(c_red);
-	draw_text(x + 25, y - 50, "!")
+	draw_text(x -75, y -20, "!")
 	
 	if keyboard_check_pressed(ord("E"))
 	{
@@ -202,39 +181,12 @@ if place_meeting(x, y -10, ObjMirrorMasterToLiving)
 
 if place_meeting(x, y - 100, ObjMirrorTv)
 {
-	draw_set_font(Fnt_Text_Enlarged)
 	draw_set_color(c_red);
-	draw_text(x + 25, y - 50, "!");
+	draw_text(x + 20, y - 50, "!");
 }
-
-if place_meeting(x, y - 50, ObjAltar)
+else
 {
-	draw_set_font(Fnt_Text_Enlarged)
-	draw_set_color(c_red);
-	draw_text(x + 25, y - 50, "!");
-}
-
-if place_meeting(x, y - 50, ObjAltar2)
-{
-	draw_set_font(Fnt_Text_Enlarged)
-	draw_set_color(c_red);
-	draw_text(x + 25, y - 50, "!");
-}
-
-if place_meeting(x - 50, y - 50, ObjPaper)
-{
-	draw_set_font(Fnt_Text_Enlarged)
-	draw_set_color(c_red);
-	draw_text(x + 25, y - 50, "!");
-	if keyboard_check_pressed(ord("E"))
-	{
-		if(global.hasRead = false)
-		{
-		instance_create_layer(325, 17, "Journal", ObjJournal1);
-		global.hasRead = true;
-		}
-		
-	}
+ draw_set_font(Fnt_Text);	
 }
 
 
@@ -245,8 +197,20 @@ interactWithObject(ObjChar23, -10, ObjGrandfatherClock, c_red, "E", PuzzleRoom3,
 interactWithClockHands(ObjChar23, 0, ObjClockSmallHand, c_red, "E", -30);
 interactWithClockHands(ObjChar23, 0, ObjClockBigHand, c_red, "E", -30);
 
+//interact with the yellow button in the puzzle room 3
+if (place_meeting(x, y, ObjCheckButton))
+{
+	drawInteractSymbol(c_red, ObjChar23, "!");	
+	if keyboard_check_pressed(ord("E")) {
+		checkIfPuzzleSolved(ObjPuzzle3Run, ObjClockSmallHand, ObjClockBigHand);
+	}
+}
+
 // interact with sparkleButton for bookshelf popup
-//interactWithObject(ObjChar23, 0, ObjInteractButton, c_red, "E")
+interactWithObjectPopup(ObjChar23, -40, ObjInteractButton, c_red, "E");
+
+// interact with door in puzzle room 3 to go back to the study
+interactWithObject(ObjChar23, 0, ObjPuzzle3ToStudyDoor, c_red, "E", Study, 896, 192);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
