@@ -4,8 +4,11 @@ image_speed = 0;
 global.isFridgeOpen = 0;
 isInRoomPuzzle2 = false;
 global.goToPuz2 = false;
+global.hasShard1 = false;
+global.hasShard2 = false;
+global.speedTrig = false;
 
-walkSpeed = 5;
+walkSpeed = 10;
 vx = 0;
 vy = 0;
 dir = 3;
