@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprAltar",
-    "path": "sprites/SprAltar/SprAltar.yy",
+    "name": "SprAltar_1",
+    "path": "sprites/SprAltar_1/SprAltar_1.yy",
   },
   "solid": true,
   "visible": true,

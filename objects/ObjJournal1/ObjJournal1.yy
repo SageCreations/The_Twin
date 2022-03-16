@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprJournal1",
-    "path": "sprites/SprJournal1/SprJournal1.yy",
+    "name": "SprJournal1_1",
+    "path": "sprites/SprJournal1_1/SprJournal1_1.yy",
   },
   "solid": false,
   "visible": true,

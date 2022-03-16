@@ -41,7 +41,7 @@ y = 282;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 060B4D63
+/// @DnDHash : 414DACF7
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "global.hasShard2"
 global.hasShard2 = true;
