@@ -38,7 +38,6 @@ else
 			
 			instance_destroy(myTextBox3);
 			
-			myTextBox3 = noone;
 		}
 }
 
