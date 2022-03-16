@@ -19,7 +19,7 @@ function interactWithObject(_objChar, _aboveOrBelow, _objToInteract, _textColor,
 			room_goto(_goToRoom);
 			x = _newX;
 			y = _newY;
-			depth = 0;
+			_objChar.depth = 0;
 		}
 	}
 }
