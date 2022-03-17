@@ -3,7 +3,7 @@
     "name": "SprMirrorCounter2",
     "path": "sprites/SprMirrorCounter2/SprMirrorCounter2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -3,7 +3,7 @@
     "name": "SprMirrorStove",
     "path": "sprites/SprMirrorStove/SprMirrorStove.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

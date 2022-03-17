@@ -6,8 +6,10 @@ isInRoomPuzzle2 = false;
 global.goToPuz2 = false;
 global.hasShard1 = false;
 global.hasShard2 = false;
+global.hasShard3 = false;
+global.hasShard4 = false;
 global.speedTrig = false;
-
+sprite_index = CharUp1
 walkSpeed = 10;
 vx = 0;
 vy = 0;

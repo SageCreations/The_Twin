@@ -49,3 +49,7 @@ if (global.counter = 3)
 		y = y - 1.8;
 	}
 }
+if (y <= 94)
+{
+	depth = 9000;
+}

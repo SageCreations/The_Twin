@@ -13,9 +13,11 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
+    {"instances":[],"visible":true,"depth":-250,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Journal","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorKitchenDoorRight","path":"objects/ObjMirrorKitchenDoorRight/ObjMirrorKitchenDoorRight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.7,"scaleY":3.034,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":699.0,"y":659.742065,"resourceVersion":"1.0","name":"inst_7E6AB810","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorKitchenDoorLeft","path":"objects/ObjMirrorKitchenDoorLeft/ObjMirrorKitchenDoorLeft.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.7,"scaleY":3.034,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":490.0,"y":659.742065,"resourceVersion":"1.0","name":"inst_2F307F75","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjPaper2","path":"objects/ObjPaper2/ObjPaper2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.18,"scaleY":0.18,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1167.0,"y":313.0,"resourceVersion":"1.0","name":"inst_1D3A6737","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-150,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"SprMirrorWindow","path":"sprites/SprMirrorWindow/SprMirrorWindow.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":5.36363649,"scaleY":2.39130425,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":245.0,"y":14.0,"resourceVersion":"1.0","name":"graphic_7CBB71D","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -111,6 +113,7 @@
     {"name":"inst_3F0B6F5E","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_7E6AB810","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_2F307F75","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_1D3A6737","path":"rooms/Room4/Room4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

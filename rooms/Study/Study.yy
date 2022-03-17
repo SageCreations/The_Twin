@@ -13,6 +13,7 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
+    {"instances":[],"visible":true,"depth":-350,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Journal","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjBookShelf_P3","path":"objects/ObjBookShelf_P3/ObjBookShelf_P3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.7943797,"scaleY":0.79437983,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":416.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1EC9CA53","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjBook10H","path":"objects/ObjBook10H/ObjBook10H.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.2,"scaleY":0.2,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":440.0,"y":158.0,"resourceVersion":"1.0","name":"inst_3E65E010","tags":[],"resourceType":"GMRInstance",},
@@ -27,6 +28,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorTallBookshelfTopHalf","path":"objects/ObjMirrorTallBookshelfTopHalf/ObjMirrorTallBookshelfTopHalf.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":752.0,"y":393.0,"resourceVersion":"1.0","name":"inst_2657B858","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorTallBookshelfTopHalf","path":"objects/ObjMirrorTallBookshelfTopHalf/ObjMirrorTallBookshelfTopHalf.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":393.0,"resourceVersion":"1.0","name":"inst_39AC64DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorTallBookshelfTopHalf","path":"objects/ObjMirrorTallBookshelfTopHalf/ObjMirrorTallBookshelfTopHalf.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1040.0,"y":393.0,"resourceVersion":"1.0","name":"inst_5043AECF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjPaper4","path":"objects/ObjPaper4/ObjPaper4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":99.4362259,"scaleX":0.14,"scaleY":0.18,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":680.0,"y":251.0,"resourceVersion":"1.0","name":"inst_F0007CD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-50,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorStudyWall","path":"objects/ObjMirrorStudyWall/ObjMirrorStudyWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":6.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2E1DA01","tags":[],"resourceType":"GMRInstance",},
@@ -165,6 +167,7 @@
     {"name":"inst_3E65E010","path":"rooms/Study/Study.yy",},
     {"name":"inst_3CBAD26B","path":"rooms/Study/Study.yy",},
     {"name":"inst_7695A1AE","path":"rooms/Study/Study.yy",},
+    {"name":"inst_F0007CD","path":"rooms/Study/Study.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
