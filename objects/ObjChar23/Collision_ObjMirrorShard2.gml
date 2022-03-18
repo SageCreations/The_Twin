@@ -34,10 +34,10 @@ audio_stop_sound(_352410__reacthor__space_energy_generator);
 /// @DnDHash : 0183C02C
 /// @DnDInput : 2
 /// @DnDArgument : "value" "309"
-/// @DnDArgument : "value_1" "282"
+/// @DnDArgument : "value_1" "205"
 /// @DnDArgument : "instvar_1" "1"
 x = 309;
-y = 282;
+y = 205;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

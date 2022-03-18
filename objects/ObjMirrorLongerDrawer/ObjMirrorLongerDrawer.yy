@@ -3,7 +3,7 @@
     "name": "SprMirrorLongerDrawer",
     "path": "sprites/SprMirrorLongerDrawer/SprMirrorLongerDrawer.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

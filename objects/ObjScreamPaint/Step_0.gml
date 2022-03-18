@@ -10,6 +10,7 @@ if place_meeting(x,y + 80, ObjChar23)
 			room_goto(PuzzleRoom4);
 			ObjChar23.depth = 9000;
 			ObjChar23.playerPaused = true;
+			global.pictureDown = false;
 		}
 	}
 }

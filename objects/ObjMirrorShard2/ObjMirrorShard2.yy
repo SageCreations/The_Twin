@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprMirrorShard_1",
-    "path": "sprites/SprMirrorShard_1/SprMirrorShard_1.yy",
+    "name": "SprMirrorShard",
+    "path": "sprites/SprMirrorShard/SprMirrorShard.yy",
   },
   "solid": false,
   "visible": true,

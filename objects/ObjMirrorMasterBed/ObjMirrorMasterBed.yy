@@ -3,7 +3,7 @@
     "name": "SprMirrorMasterBed",
     "path": "sprites/SprMirrorMasterBed/SprMirrorMasterBed.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -6,6 +6,7 @@ if (room_get_name(room) == "Study" || room_get_name(room) == "PuzzleRoom3") {
 	if (puzzleSolved) {
 		draw_set_color(c_green);
 		draw_text(ObjChar23.x + 75, ObjChar23.y - 50, "O");
+		global.puzzle3Finish = true;
 	
 	} else {
 		draw_set_color(c_red);
