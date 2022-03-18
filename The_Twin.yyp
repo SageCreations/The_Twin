@@ -654,9 +654,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
+    {"roomId":{"name":"OpeningRoom","path":"rooms/OpeningRoom/OpeningRoom.yy",},},
     {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
     {"roomId":{"name":"MasterBedroom","path":"rooms/MasterBedroom/MasterBedroom.yy",},},
-    {"roomId":{"name":"OpeningRoom","path":"rooms/OpeningRoom/OpeningRoom.yy",},},
     {"roomId":{"name":"GirlsRoom","path":"rooms/GirlsRoom/GirlsRoom.yy",},},
     {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
