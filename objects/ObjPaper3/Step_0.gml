@@ -33,6 +33,7 @@ if(global.hasRead3 = true)
 			if keyboard_check_pressed(ord("E"))
 			{
 				instance_destroy(ObjJournal3);
+				ObjChar23.playerPaused = false;
 				alarm[1] = 1;
 			}
 		}

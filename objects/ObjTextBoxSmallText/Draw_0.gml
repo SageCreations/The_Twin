@@ -1,7 +1,9 @@
 /// @description Insert description here
 
 // Draws TextBox
-draw_sprite(SprTextBox, 0, x, y);
+draw_sprite(SprTextBox, image_index, x, y);
+
+
 
 // Draws Text
 draw_set_font(chosenText);

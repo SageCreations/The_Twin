@@ -57,46 +57,45 @@ if(global.finalTrig1 == true)
 /// @DnDArgument : "value" "38"
 if(image_index == 38)
 {
-	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0B0FC3E4
+	/// @DnDHash : 53DDF352
 	/// @DnDParent : 35CCBB76
-	/// @DnDArgument : "value" "true"
-	/// @DnDArgument : "var" "global.ritualTrig"
-	global.ritualTrig = true;
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 54CF77E2
-	/// @DnDParent : 35CCBB76
-	instance_destroy();
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 513B4F95
-	/// @DnDApplyTo : {ObjMirrorShardFinal}
-	/// @DnDParent : 35CCBB76
-	with(ObjMirrorShardFinal) instance_destroy();
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 0D06564B
-	/// @DnDParent : 35CCBB76
-	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "ObjRitualCirclePart2"
-	/// @DnDArgument : "layer" ""Instances_1""
-	/// @DnDSaveInfo : "objectid" "ObjRitualCirclePart2"
-	instance_create_layer(x + 0, y + 0, "Instances_1", ObjRitualCirclePart2);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 1A205AE2
-	/// @DnDParent : 35CCBB76
-	/// @DnDArgument : "xpos" "603"
-	/// @DnDArgument : "ypos" "261"
-	/// @DnDArgument : "objectid" "ObjMirrorFinal"
-	/// @DnDArgument : "layer" ""Instances_1""
-	/// @DnDSaveInfo : "objectid" "ObjMirrorFinal"
-	instance_create_layer(603, 261, "Instances_1", ObjMirrorFinal);
+	/// @DnDArgument : "var" "trig"
+	/// @DnDArgument : "value" "false"
+	if(trig == false)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4B5FF1F4
+		/// @DnDParent : 53DDF352
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "var" "trig"
+		trig = true;
+	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 0B0FC3E4
+		/// @DnDParent : 53DDF352
+		/// @DnDArgument : "value" "true"
+		/// @DnDArgument : "var" "global.ritualTrigFinal"
+		global.ritualTrigFinal = true;
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 54CF77E2
+		/// @DnDParent : 53DDF352
+		instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 02FD1E33
+		/// @DnDParent : 53DDF352
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "ObjRitualCirclePart2"
+		/// @DnDArgument : "layer" ""Instances_1""
+		/// @DnDSaveInfo : "objectid" "ObjRitualCirclePart2"
+		instance_create_layer(x + 0, y + 0, "Instances_1", ObjRitualCirclePart2);
+	}
 }

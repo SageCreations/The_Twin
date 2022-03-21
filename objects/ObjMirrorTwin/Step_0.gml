@@ -37,12 +37,18 @@ else
 		{
 			
 			instance_destroy(myTextBox3);
-			
+			if (myTextBox == noone)
+					{
+						
+						myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);
+						myTextBox.text = myText4;
+						myTextBox.creator = self;
+					}
 			
 		}
 }
 
-if (global.counter = 3)
+if (global.textTrig = true)
 {
 	if (y > 94)
 	{
@@ -51,5 +57,6 @@ if (global.counter = 3)
 }
 if (y <= 94)
 {
+	global.mirrorCrackTrig = true;
 	depth = 9000;
 }

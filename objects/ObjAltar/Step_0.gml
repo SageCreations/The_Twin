@@ -5,7 +5,7 @@ if(place_meeting(x, y +100, ObjChar23))
 {
 	if keyboard_check(ord("E"))
 	{
-		global.speedTrig = true;
+		ObjChar23.playerPaused = true;
 		if (myTextBox == noone)
 		{
 			myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);

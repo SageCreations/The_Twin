@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.speedTrig = false;
-
+image_speed = 0.03;
 page = 0;
 
 creator = noone;
