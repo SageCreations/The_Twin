@@ -762,8 +762,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
     {"roomId":{"name":"OpeningRoom2","path":"rooms/OpeningRoom2/OpeningRoom2.yy",},},
     {"roomId":{"name":"EndingRoom","path":"rooms/EndingRoom/EndingRoom.yy",},},

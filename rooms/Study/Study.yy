@@ -21,6 +21,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjInteractButton","path":"objects/ObjInteractButton/ObjInteractButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":480.0,"resourceVersion":"1.0","name":"inst_3CBAD26B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjPuzzle3Run","path":"objects/ObjPuzzle3Run/ObjPuzzle3Run.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7695A1AE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjChar23","path":"objects/ObjChar23/ObjChar23.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":416.0,"resourceVersion":"1.0","name":"inst_464D1B95","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-150,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"bookshelfButton","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjMirrorTallBookshelfTopHalf","path":"objects/ObjMirrorTallBookshelfTopHalf/ObjMirrorTallBookshelfTopHalf.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":464.0,"y":393.0,"resourceVersion":"1.0","name":"inst_BE35F89","tags":[],"resourceType":"GMRInstance",},
@@ -168,6 +169,7 @@
     {"name":"inst_3CBAD26B","path":"rooms/Study/Study.yy",},
     {"name":"inst_7695A1AE","path":"rooms/Study/Study.yy",},
     {"name":"inst_F0007CD","path":"rooms/Study/Study.yy",},
+    {"name":"inst_464D1B95","path":"rooms/Study/Study.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
