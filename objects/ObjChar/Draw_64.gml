@@ -1,19 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 68C510E3
-/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)$(13_10)draw_text(x - 75, y - 20, string("Press E to look into the mirror. ") + "");$(13_10)$(13_10)NearMirror = 1;$(13_10)}$(13_10)else$(13_10){$(13_10)	NearMirror = 0;$(13_10)}$(13_10)$(13_10)if place_meeting(x, y - 10, ObjMirrorHallDoorRight)$(13_10){$(13_10)	draw_text(x -75, y -20, string("Press E to Enter your room. "));$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(GirlsRoom2);$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)if (room = OpeningRoom2)$(13_10){$(13_10)	if (myTextBox2 == noone)$(13_10)					{$(13_10)						$(13_10)						myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)						myTextBox2.text = myText2;$(13_10)						myTextBox2.creator = self;$(13_10)						global.speedTrig = true;$(13_10)					}$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "if place_meeting(x,y -10, ObjMirrorInteract)$(13_10){$(13_10)	draw_set_font(Fnt_Text_Enlarged)$(13_10)	draw_set_color(c_red);$(13_10)	draw_text(x + 25, y -50, "!");$(13_10)	NearMirror = 1;$(13_10)}$(13_10)else$(13_10){$(13_10)	NearMirror = 0;$(13_10)}$(13_10)/*$(13_10)if place_meeting(x, y - 10, ObjMirrorHallDoorRight)$(13_10){$(13_10)	draw_text(x -75, y -20, string("Press E to Enter your room. "));$(13_10)	$(13_10)	if keyboard_check_pressed(ord("E"))$(13_10)	{$(13_10)	room_goto(GirlsRoom2);$(13_10)	$(13_10)	}$(13_10)}$(13_10)*/$(13_10)$(13_10)if (room = OpeningRoom2)$(13_10){$(13_10)	if (myTextBox2 == noone)$(13_10)	{					$(13_10)		myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox2);$(13_10)		myTextBox2.text = myText2;$(13_10)		myTextBox2.creator = self;$(13_10)		global.speedTrig = true;$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 if place_meeting(x,y -10, ObjMirrorInteract)
 {
-
-draw_text(x - 75, y - 20, string("Press E to look into the mirror. ") + "");
-
-NearMirror = 1;
+	draw_set_font(Fnt_Text_Enlarged)
+	draw_set_color(c_red);
+	draw_text(x + 25, y -50, "!");
+	NearMirror = 1;
 }
 else
 {
 	NearMirror = 0;
 }
-
+/*
 if place_meeting(x, y - 10, ObjMirrorHallDoorRight)
 {
 	draw_text(x -75, y -20, string("Press E to Enter your room. "));
@@ -24,18 +24,20 @@ if place_meeting(x, y - 10, ObjMirrorHallDoorRight)
 	
 	}
 }
+*/
 
 if (room = OpeningRoom2)
 {
 	if (myTextBox2 == noone)
-					{
-						
-						myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);
-						myTextBox2.text = myText2;
-						myTextBox2.creator = self;
-						global.speedTrig = true;
-					}
+	{					
+		myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox2);
+		myTextBox2.text = myText2;
+		myTextBox2.creator = self;
+		global.speedTrig = true;
+	}
 }
+
+/**/
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

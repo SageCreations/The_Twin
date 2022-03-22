@@ -10,7 +10,7 @@ if place_meeting(x - 15 , y, ObjChar)
 				if (myTextBox == noone)
 				{
 					
-					myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);
+					myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox2);
 					myTextBox.text = myText;
 					myTextBox.creator = self;
 					global.bedTrig = true;

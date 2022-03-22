@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 569D2D4E
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)ObjChar23.playerPaused = true;$(13_10)$(13_10)if ObjChar23.y <= 170$(13_10){$(13_10)	if textTrig = false$(13_10)	{$(13_10)		if (myTextBox == noone)$(13_10)		{$(13_10)			myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)			myTextBox.text = myText;$(13_10)			myTextBox.creator = self;$(13_10)		}$(13_10)	}$(13_10)}$(13_10)$(13_10)if textTrig = true$(13_10){$(13_10)	if walkDTrig = false$(13_10)	{$(13_10)	if ObjChar23.y < 400$(13_10)	{$(13_10)		ObjChar23.y += 1;$(13_10)		ObjChar23.sprite_index = CharDown;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.y = 400$(13_10){$(13_10)	if textTrig2 = false$(13_10)	{$(13_10)		if (myTextBox2 == noone)$(13_10)		{$(13_10)			myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)			myTextBox2.text = myText2;$(13_10)			myTextBox2.creator = self;$(13_10)			textTrig2 = true;$(13_10)			walkDTrig = true;$(13_10)		}$(13_10)	}$(13_10)}$(13_10)$(13_10)if walkLTrig = true$(13_10){$(13_10)	if ObjChar23.x > 40$(13_10)	{$(13_10)		ObjChar23.x -= 2;$(13_10)		ObjChar23.sprite_index = CharLeft;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.x = 40$(13_10){$(13_10)	if ObjChar23.y < 576$(13_10)	{$(13_10)		ObjChar23.y += 1;$(13_10)		ObjChar23.sprite_index = CharDown;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.y = 576$(13_10){$(13_10)	ObjChar23.depth = 9000;$(13_10)	global.eye2Trig = true;$(13_10)	alarm_set(0,100)$(13_10)}$(13_10)	"
+/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)ObjChar23.playerPaused = true;$(13_10)$(13_10)if ObjChar23.y <= 170$(13_10){$(13_10)	if textTrig = false$(13_10)	{$(13_10)		if (myTextBox == noone)$(13_10)		{$(13_10)			myTextBox = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)			myTextBox.text = myText;$(13_10)			myTextBox.creator = self;$(13_10)		}$(13_10)	}$(13_10)}$(13_10)$(13_10)if textTrig = true$(13_10){$(13_10)	if walkDTrig = false$(13_10)	{$(13_10)	if ObjChar23.y < 400$(13_10)	{$(13_10)		ObjChar23.y += 1;$(13_10)		ObjChar23.sprite_index = CharDown;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.y = 400$(13_10){$(13_10)	if textTrig2 = false$(13_10)	{$(13_10)		if (myTextBox2 == noone)$(13_10)		{$(13_10)			ObjChar23.image_speed = 0;$(13_10)			myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);$(13_10)			myTextBox2.text = myText2;$(13_10)			myTextBox2.creator = self;$(13_10)			textTrig2 = true;$(13_10)			walkDTrig = true;$(13_10)		}$(13_10)	}$(13_10)}$(13_10)$(13_10)if walkLTrig = true$(13_10){$(13_10)	if ObjChar23.x > 40$(13_10)	{$(13_10)		ObjChar23.x -= 2;$(13_10)		ObjChar23.sprite_index = CharLeft;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.x = 40$(13_10){$(13_10)	if ObjChar23.y < 576$(13_10)	{$(13_10)		ObjChar23.y += 1;$(13_10)		ObjChar23.sprite_index = CharDown;$(13_10)		ObjChar23.image_speed = 1;$(13_10)	}$(13_10)}$(13_10)$(13_10)if ObjChar23.y = 576$(13_10){$(13_10)	ObjChar23.depth = 9000;$(13_10)	global.eye2Trig = true;$(13_10)	alarm_set(0,5)$(13_10)}$(13_10)	"
 /// @description Insert description here
 // You can write your code in this editor
 ObjChar23.playerPaused = true;
@@ -38,6 +38,7 @@ if ObjChar23.y = 400
 	{
 		if (myTextBox2 == noone)
 		{
+			ObjChar23.image_speed = 0;
 			myTextBox2 = instance_create_layer(372, 549, "Text", ObjTextBox);
 			myTextBox2.text = myText2;
 			myTextBox2.creator = self;
@@ -71,7 +72,7 @@ if ObjChar23.y = 576
 {
 	ObjChar23.depth = 9000;
 	global.eye2Trig = true;
-	alarm_set(0,100)
+	alarm_set(0,5)
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

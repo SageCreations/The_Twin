@@ -35,7 +35,7 @@
     "spriteId": {"name":"Sprite417","path":"sprites/Sprite417/Sprite417.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

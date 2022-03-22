@@ -35,4 +35,10 @@ if(trig1 == true)
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "global.finalTrig2"
 	global.finalTrig2 = true;
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 322E8373
+	/// @DnDParent : 1780D337
+	instance_destroy();
 }
