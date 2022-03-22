@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Basement_Wall1","path":"sprites/Basement_Wall1/Basement_Wall1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Basement_Wall1",
     "tags": [],
     "resourceType": "GMSequence",

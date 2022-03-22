@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprPlate","path":"sprites/SprPlate/SprPlate.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprPlate",
     "tags": [],
     "resourceType": "GMSequence",

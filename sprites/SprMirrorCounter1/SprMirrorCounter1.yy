@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorCounter1","path":"sprites/SprMirrorCounter1/SprMirrorCounter1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorCounter1",
     "tags": [],
     "resourceType": "GMSequence",

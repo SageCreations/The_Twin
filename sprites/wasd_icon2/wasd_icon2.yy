@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"wasd_icon2","path":"sprites/wasd_icon2/wasd_icon2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "wasd_icon2",
     "tags": [],
     "resourceType": "GMSequence",

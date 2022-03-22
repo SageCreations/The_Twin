@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"up5","path":"sprites/up5/up5.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "up5",
     "tags": [],
     "resourceType": "GMSequence",

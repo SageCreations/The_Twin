@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Medium_Rug","path":"sprites/Medium_Rug/Medium_Rug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Medium_Rug",
     "tags": [],
     "resourceType": "GMSequence",

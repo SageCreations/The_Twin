@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Books","path":"sprites/Books/Books.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Books",
     "tags": [],
     "resourceType": "GMSequence",

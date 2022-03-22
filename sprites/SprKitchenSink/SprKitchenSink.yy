@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprKitchenSink","path":"sprites/SprKitchenSink/SprKitchenSink.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprKitchenSink",
     "tags": [],
     "resourceType": "GMSequence",

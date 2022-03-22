@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Small_Bookshelf","path":"sprites/Small_Bookshelf/Small_Bookshelf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Small_Bookshelf",
     "tags": [],
     "resourceType": "GMSequence",

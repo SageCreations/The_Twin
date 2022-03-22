@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Book_10_H","path":"sprites/Spr_Book_10_H/Spr_Book_10_H.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Book_10_H",
     "tags": [],
     "resourceType": "GMSequence",

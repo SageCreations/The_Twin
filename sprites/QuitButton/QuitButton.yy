@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"QuitButton","path":"sprites/QuitButton/QuitButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "QuitButton",
     "tags": [],
     "resourceType": "GMSequence",

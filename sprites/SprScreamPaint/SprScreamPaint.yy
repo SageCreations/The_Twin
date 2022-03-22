@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprScreamPaint","path":"sprites/SprScreamPaint/SprScreamPaint.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprScreamPaint",
     "tags": [],
     "resourceType": "GMSequence",

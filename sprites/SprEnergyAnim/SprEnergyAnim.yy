@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprEnergyAnim","path":"sprites/SprEnergyAnim/SprEnergyAnim.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprEnergyAnim",
     "tags": [],
     "resourceType": "GMSequence",

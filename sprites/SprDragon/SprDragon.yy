@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprDragon","path":"sprites/SprDragon/SprDragon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprDragon",
     "tags": [],
     "resourceType": "GMSequence",

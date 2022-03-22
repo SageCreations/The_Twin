@@ -219,7 +219,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"eye","path":"sprites/eye/eye.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "eye",
     "tags": [],
     "resourceType": "GMSequence",

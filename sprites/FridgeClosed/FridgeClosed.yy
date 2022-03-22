@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"FridgeClosed","path":"sprites/FridgeClosed/FridgeClosed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "FridgeClosed",
     "tags": [],
     "resourceType": "GMSequence",

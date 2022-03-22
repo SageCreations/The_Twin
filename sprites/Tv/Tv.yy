@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Tv","path":"sprites/Tv/Tv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Tv",
     "tags": [],
     "resourceType": "GMSequence",

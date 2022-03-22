@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorFridgeClose","path":"sprites/SprMirrorFridgeClose/SprMirrorFridgeClose.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorFridgeClose",
     "tags": [],
     "resourceType": "GMSequence",

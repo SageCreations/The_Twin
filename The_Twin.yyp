@@ -756,14 +756,13 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"Study","path":"rooms/Study/Study.yy",},},
     {"roomId":{"name":"GirlsRoom2","path":"rooms/GirlsRoom2/GirlsRoom2.yy",},},
     {"roomId":{"name":"OpeningRoom2","path":"rooms/OpeningRoom2/OpeningRoom2.yy",},},
     {"roomId":{"name":"EndingRoom","path":"rooms/EndingRoom/EndingRoom.yy",},},
@@ -849,9 +848,9 @@
     {"CopyToMask":0,"filePath":"datafiles","resourceVersion":"1.0","name":"221528__unfa__glass-break.flac","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2022.2.1.618",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.5",
   "name": "The_Twin",
   "tags": [],
   "resourceType": "GMProject",

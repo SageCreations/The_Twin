@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_RomanNumeral_4","path":"sprites/Spr_RomanNumeral_4/Spr_RomanNumeral_4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_RomanNumeral_4",
     "tags": [],
     "resourceType": "GMSequence",

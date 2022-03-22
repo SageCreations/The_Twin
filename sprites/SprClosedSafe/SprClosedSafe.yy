@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprClosedSafe","path":"sprites/SprClosedSafe/SprClosedSafe.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprClosedSafe",
     "tags": [],
     "resourceType": "GMSequence",

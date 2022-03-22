@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Basement_Floor","path":"sprites/Basement_Floor/Basement_Floor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Basement_Floor",
     "tags": [],
     "resourceType": "GMSequence",

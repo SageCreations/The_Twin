@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorCracked","path":"sprites/SprMirrorCracked/SprMirrorCracked.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorCracked",
     "tags": [],
     "resourceType": "GMSequence",

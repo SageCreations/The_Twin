@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorTable_1","path":"sprites/SprMirrorTable_1/SprMirrorTable_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorTable_1",
     "tags": [],
     "resourceType": "GMSequence",

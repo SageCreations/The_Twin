@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprSafe","path":"sprites/SprSafe/SprSafe.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprSafe",
     "tags": [],
     "resourceType": "GMSequence",

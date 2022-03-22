@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"CharDown1","path":"sprites/CharDown1/CharDown1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "CharDown1",
     "tags": [],
     "resourceType": "GMSequence",

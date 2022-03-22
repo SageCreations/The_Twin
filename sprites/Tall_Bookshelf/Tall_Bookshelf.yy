@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Tall_Bookshelf","path":"sprites/Tall_Bookshelf/Tall_Bookshelf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Tall_Bookshelf",
     "tags": [],
     "resourceType": "GMSequence",

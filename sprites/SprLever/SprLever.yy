@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprLever","path":"sprites/SprLever/SprLever.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprLever",
     "tags": [],
     "resourceType": "GMSequence",

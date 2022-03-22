@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"CharUp1","path":"sprites/CharUp1/CharUp1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "CharUp1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprJournal3","path":"sprites/SprJournal3/SprJournal3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprJournal3",
     "tags": [],
     "resourceType": "GMSequence",

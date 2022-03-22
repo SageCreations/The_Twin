@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"mirrorBooks","path":"sprites/mirrorBooks/mirrorBooks.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "mirrorBooks",
     "tags": [],
     "resourceType": "GMSequence",

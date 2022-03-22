@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMessyFloor","path":"sprites/SprMessyFloor/SprMessyFloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMessyFloor",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Attic_Floor","path":"sprites/Attic_Floor/Attic_Floor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Attic_Floor",
     "tags": [],
     "resourceType": "GMSequence",

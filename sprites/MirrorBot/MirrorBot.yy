@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"MirrorBot","path":"sprites/MirrorBot/MirrorBot.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "MirrorBot",
     "tags": [],
     "resourceType": "GMSequence",

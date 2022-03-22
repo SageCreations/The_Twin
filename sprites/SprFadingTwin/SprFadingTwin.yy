@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprFadingTwin","path":"sprites/SprFadingTwin/SprFadingTwin.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprFadingTwin",
     "tags": [],
     "resourceType": "GMSequence",

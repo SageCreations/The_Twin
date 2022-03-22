@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"MirrorFloor","path":"sprites/MirrorFloor/MirrorFloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "MirrorFloor",
     "tags": [],
     "resourceType": "GMSequence",

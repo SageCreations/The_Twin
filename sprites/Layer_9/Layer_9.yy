@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Layer_9","path":"sprites/Layer_9/Layer_9.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Layer_9",
     "tags": [],
     "resourceType": "GMSequence",

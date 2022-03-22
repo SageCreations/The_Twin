@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprDirt","path":"sprites/SprDirt/SprDirt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprDirt",
     "tags": [],
     "resourceType": "GMSequence",

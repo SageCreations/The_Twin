@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Lamp","path":"sprites/Lamp/Lamp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Lamp",
     "tags": [],
     "resourceType": "GMSequence",

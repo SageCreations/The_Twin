@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprNum1","path":"sprites/SprNum1/SprNum1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprNum1",
     "tags": [],
     "resourceType": "GMSequence",

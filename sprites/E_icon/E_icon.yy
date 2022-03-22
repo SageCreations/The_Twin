@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"E_icon","path":"sprites/E_icon/E_icon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "E_icon",
     "tags": [],
     "resourceType": "GMSequence",

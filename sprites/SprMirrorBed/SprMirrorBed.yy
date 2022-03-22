@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorBed","path":"sprites/SprMirrorBed/SprMirrorBed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorBed",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Wood_Floor","path":"sprites/Wood_Floor/Wood_Floor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Wood_Floor",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprKitchenFloor","path":"sprites/SprKitchenFloor/SprKitchenFloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprKitchenFloor",
     "tags": [],
     "resourceType": "GMSequence",

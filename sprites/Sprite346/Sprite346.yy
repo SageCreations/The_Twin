@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Sprite346","path":"sprites/Sprite346/Sprite346.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Sprite346",
     "tags": [],
     "resourceType": "GMSequence",

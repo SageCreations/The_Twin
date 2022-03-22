@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"mirrorLamp","path":"sprites/mirrorLamp/mirrorLamp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "mirrorLamp",
     "tags": [],
     "resourceType": "GMSequence",

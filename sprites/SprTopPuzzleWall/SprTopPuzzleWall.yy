@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprTopPuzzleWall","path":"sprites/SprTopPuzzleWall/SprTopPuzzleWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprTopPuzzleWall",
     "tags": [],
     "resourceType": "GMSequence",

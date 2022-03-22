@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprStudyDesk","path":"sprites/SprStudyDesk/SprStudyDesk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprStudyDesk",
     "tags": [],
     "resourceType": "GMSequence",

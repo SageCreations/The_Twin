@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprFoldedRug","path":"sprites/SprFoldedRug/SprFoldedRug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprFoldedRug",
     "tags": [],
     "resourceType": "GMSequence",

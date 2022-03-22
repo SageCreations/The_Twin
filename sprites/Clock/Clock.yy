@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Clock","path":"sprites/Clock/Clock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Clock",
     "tags": [],
     "resourceType": "GMSequence",

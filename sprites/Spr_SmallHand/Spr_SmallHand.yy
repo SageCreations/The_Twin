@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_SmallHand","path":"sprites/Spr_SmallHand/Spr_SmallHand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_SmallHand",
     "tags": [],
     "resourceType": "GMSequence",

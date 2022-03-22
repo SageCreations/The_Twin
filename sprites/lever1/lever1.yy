@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"lever1","path":"sprites/lever1/lever1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "lever1",
     "tags": [],
     "resourceType": "GMSequence",

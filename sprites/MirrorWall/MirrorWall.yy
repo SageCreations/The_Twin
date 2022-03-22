@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"MirrorWall","path":"sprites/MirrorWall/MirrorWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "MirrorWall",
     "tags": [],
     "resourceType": "GMSequence",

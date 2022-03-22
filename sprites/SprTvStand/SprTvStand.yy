@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprTvStand","path":"sprites/SprTvStand/SprTvStand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprTvStand",
     "tags": [],
     "resourceType": "GMSequence",

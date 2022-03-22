@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorComfyChair_1","path":"sprites/SprMirrorComfyChair_1/SprMirrorComfyChair_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorComfyChair_1",
     "tags": [],
     "resourceType": "GMSequence",

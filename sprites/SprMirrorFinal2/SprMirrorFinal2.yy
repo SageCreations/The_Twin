@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorFinal2","path":"sprites/SprMirrorFinal2/SprMirrorFinal2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorFinal2",
     "tags": [],
     "resourceType": "GMSequence",

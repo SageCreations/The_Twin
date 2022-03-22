@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"EnergyAnim8","path":"sprites/EnergyAnim8/EnergyAnim8.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "EnergyAnim8",
     "tags": [],
     "resourceType": "GMSequence",

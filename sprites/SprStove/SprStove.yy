@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprStove","path":"sprites/SprStove/SprStove.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprStove",
     "tags": [],
     "resourceType": "GMSequence",

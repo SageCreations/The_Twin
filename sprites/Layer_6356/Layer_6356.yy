@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Layer_6356","path":"sprites/Layer_6356/Layer_6356.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Layer_6356",
     "tags": [],
     "resourceType": "GMSequence",

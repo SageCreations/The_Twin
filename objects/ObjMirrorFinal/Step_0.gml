@@ -26,7 +26,6 @@ if(global.stuckMirrorTrig == true)
 		/// @DnDParent : 5E03BD14
 		/// @DnDArgument : "var" "_vol"
 		/// @DnDArgument : "sound" "Audio_glass_break"
-		/// @DnDSaveInfo : "sound" "Audio_glass_break"
 		_vol = audio_sound_get_gain(Audio_glass_break);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -44,7 +43,6 @@ if(global.stuckMirrorTrig == true)
 			/// @DnDParent : 6858D73C
 			/// @DnDArgument : "sound" "Audio_glass_break"
 			/// @DnDArgument : "volume" "0.001"
-			/// @DnDSaveInfo : "sound" "Audio_glass_break"
 			audio_sound_gain(Audio_glass_break, 0.001, 0);
 		}
 	
@@ -53,7 +51,6 @@ if(global.stuckMirrorTrig == true)
 		/// @DnDHash : 72D32623
 		/// @DnDParent : 5E03BD14
 		/// @DnDArgument : "soundid" "Audio_glass_break"
-		/// @DnDSaveInfo : "soundid" "Audio_glass_break"
 		audio_play_sound(Audio_glass_break, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -70,14 +67,13 @@ if(global.stuckMirrorTrig == true)
 	/// @DnDHash : 600D76FD
 	/// @DnDParent : 7D8ABDB1
 	/// @DnDArgument : "spriteind" "SprStuckInMirror"
-	/// @DnDSaveInfo : "spriteind" "SprStuckInMirror"
 	sprite_index = SprStuckInMirror;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 069CDB1C
-	/// @DnDApplyTo : {ObjFadingTwin}
+	/// @DnDApplyTo : ObjFadingTwin
 	/// @DnDParent : 7D8ABDB1
 	with(ObjFadingTwin) instance_destroy();
 

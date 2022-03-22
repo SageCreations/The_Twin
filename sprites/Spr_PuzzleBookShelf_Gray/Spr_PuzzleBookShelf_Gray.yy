@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_PuzzleBookShelf_Gray","path":"sprites/Spr_PuzzleBookShelf_Gray/Spr_PuzzleBookShelf_Gray.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_PuzzleBookShelf_Gray",
     "tags": [],
     "resourceType": "GMSequence",

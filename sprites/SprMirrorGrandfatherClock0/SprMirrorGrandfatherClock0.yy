@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorGrandfatherClock0","path":"sprites/SprMirrorGrandfatherClock0/SprMirrorGrandfatherClock0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorGrandfatherClock0",
     "tags": [],
     "resourceType": "GMSequence",

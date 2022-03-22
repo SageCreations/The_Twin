@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Door","path":"sprites/Door/Door.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Door",
     "tags": [],
     "resourceType": "GMSequence",

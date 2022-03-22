@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorDesk_1","path":"sprites/SprMirrorDesk_1/SprMirrorDesk_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorDesk_1",
     "tags": [],
     "resourceType": "GMSequence",

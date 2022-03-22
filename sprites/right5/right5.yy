@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"right5","path":"sprites/right5/right5.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "right5",
     "tags": [],
     "resourceType": "GMSequence",

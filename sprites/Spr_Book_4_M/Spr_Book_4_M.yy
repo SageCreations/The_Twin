@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Book_4_M","path":"sprites/Spr_Book_4_M/Spr_Book_4_M.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Book_4_M",
     "tags": [],
     "resourceType": "GMSequence",

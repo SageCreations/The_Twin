@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprWindow","path":"sprites/SprWindow/SprWindow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprWindow",
     "tags": [],
     "resourceType": "GMSequence",

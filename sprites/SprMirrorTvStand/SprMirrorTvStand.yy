@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorTvStand","path":"sprites/SprMirrorTvStand/SprMirrorTvStand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorTvStand",
     "tags": [],
     "resourceType": "GMSequence",

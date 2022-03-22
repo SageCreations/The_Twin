@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprLongerDrawer","path":"sprites/SprLongerDrawer/SprLongerDrawer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprLongerDrawer",
     "tags": [],
     "resourceType": "GMSequence",

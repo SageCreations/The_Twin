@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorChairRight","path":"sprites/SprMirrorChairRight/SprMirrorChairRight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorChairRight",
     "tags": [],
     "resourceType": "GMSequence",

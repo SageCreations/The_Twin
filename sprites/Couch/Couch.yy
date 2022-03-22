@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Couch","path":"sprites/Couch/Couch.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Couch",
     "tags": [],
     "resourceType": "GMSequence",

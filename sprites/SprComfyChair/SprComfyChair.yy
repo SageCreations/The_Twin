@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprComfyChair","path":"sprites/SprComfyChair/SprComfyChair.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprComfyChair",
     "tags": [],
     "resourceType": "GMSequence",

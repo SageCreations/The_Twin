@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"_12th","path":"sprites/_12th/_12th.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "_12th",
     "tags": [],
     "resourceType": "GMSequence",

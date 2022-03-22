@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"KitchenCounter1","path":"sprites/KitchenCounter1/KitchenCounter1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "KitchenCounter1",
     "tags": [],
     "resourceType": "GMSequence",

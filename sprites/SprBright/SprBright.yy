@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprBright","path":"sprites/SprBright/SprBright.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprBright",
     "tags": [],
     "resourceType": "GMSequence",

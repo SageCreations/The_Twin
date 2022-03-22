@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprDigDisplay","path":"sprites/SprDigDisplay/SprDigDisplay.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprDigDisplay",
     "tags": [],
     "resourceType": "GMSequence",

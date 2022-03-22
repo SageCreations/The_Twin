@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"ControlsButton","path":"sprites/ControlsButton/ControlsButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "ControlsButton",
     "tags": [],
     "resourceType": "GMSequence",

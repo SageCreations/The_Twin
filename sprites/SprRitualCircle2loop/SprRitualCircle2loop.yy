@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprRitualCircle2loop","path":"sprites/SprRitualCircle2loop/SprRitualCircle2loop.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprRitualCircle2loop",
     "tags": [],
     "resourceType": "GMSequence",

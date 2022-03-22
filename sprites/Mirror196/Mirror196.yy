@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Mirror196","path":"sprites/Mirror196/Mirror196.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Mirror1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_BigHand","path":"sprites/Spr_BigHand/Spr_BigHand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_BigHand",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_CheckButton","path":"sprites/Spr_CheckButton/Spr_CheckButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_CheckButton",
     "tags": [],
     "resourceType": "GMSequence",

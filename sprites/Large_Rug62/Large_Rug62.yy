@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Large_Rug62","path":"sprites/Large_Rug62/Large_Rug62.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Large_Rug",
     "tags": [],
     "resourceType": "GMSequence",

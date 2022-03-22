@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprInteractButton","path":"sprites/SprInteractButton/SprInteractButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprInteractButton",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprStuckInMirror","path":"sprites/SprStuckInMirror/SprStuckInMirror.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprStuckInMirror",
     "tags": [],
     "resourceType": "GMSequence",

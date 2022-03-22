@@ -46,14 +46,14 @@ if(global.passCorrect == true)
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 0321AA3B
-	/// @DnDApplyTo : {ObjClosedSafe}
+	/// @DnDApplyTo : ObjClosedSafe
 	/// @DnDParent : 6B9D8C12
 	with(ObjClosedSafe) instance_destroy();
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1440C983
-	/// @DnDApplyTo : {ObjEnterBut}
+	/// @DnDApplyTo : ObjEnterBut
 	/// @DnDParent : 6B9D8C12
 	with(ObjEnterBut) instance_destroy();
 
@@ -64,7 +64,6 @@ if(global.passCorrect == true)
 	/// @DnDArgument : "xpos" "160"
 	/// @DnDArgument : "ypos" "96"
 	/// @DnDArgument : "objectid" "ObjOpenSafe"
-	/// @DnDSaveInfo : "objectid" "ObjOpenSafe"
 	instance_create_layer(160, 96, "Instances", ObjOpenSafe);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -75,6 +74,5 @@ if(global.passCorrect == true)
 	/// @DnDArgument : "ypos" "ObjPuzzle4Finish.y"
 	/// @DnDArgument : "objectid" "ObjMirrorShard4"
 	/// @DnDArgument : "layer" ""Instances_1""
-	/// @DnDSaveInfo : "objectid" "ObjMirrorShard4"
 	instance_create_layer(ObjPuzzle4Finish.x, ObjPuzzle4Finish.y, "Instances_1", ObjMirrorShard4);
 }

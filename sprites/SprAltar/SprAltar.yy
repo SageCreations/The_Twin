@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprAltar","path":"sprites/SprAltar/SprAltar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprAltar",
     "tags": [],
     "resourceType": "GMSequence",

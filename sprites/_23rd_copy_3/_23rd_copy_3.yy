@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"_23rd_copy_3","path":"sprites/_23rd_copy_3/_23rd_copy_3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "_23rd_copy_3",
     "tags": [],
     "resourceType": "GMSequence",

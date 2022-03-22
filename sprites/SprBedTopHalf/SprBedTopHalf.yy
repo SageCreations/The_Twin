@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprBedTopHalf","path":"sprites/SprBedTopHalf/SprBedTopHalf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprBedTopHalf",
     "tags": [],
     "resourceType": "GMSequence",

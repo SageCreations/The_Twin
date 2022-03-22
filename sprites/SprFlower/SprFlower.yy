@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprFlower","path":"sprites/SprFlower/SprFlower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprFlower",
     "tags": [],
     "resourceType": "GMSequence",

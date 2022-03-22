@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Flower_Vase","path":"sprites/Flower_Vase/Flower_Vase.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Flower_Vase",
     "tags": [],
     "resourceType": "GMSequence",

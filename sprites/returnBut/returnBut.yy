@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"returnBut","path":"sprites/returnBut/returnBut.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "returnBut",
     "tags": [],
     "resourceType": "GMSequence",

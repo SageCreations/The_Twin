@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprGrandFatherClock_1","path":"sprites/SprGrandFatherClock_1/SprGrandFatherClock_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprGrandFatherClock_1",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprPuzzleBorder","path":"sprites/SprPuzzleBorder/SprPuzzleBorder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprPuzzleBorder",
     "tags": [],
     "resourceType": "GMSequence",

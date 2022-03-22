@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"mirrorRug","path":"sprites/mirrorRug/mirrorRug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "mirrorRug",
     "tags": [],
     "resourceType": "GMSequence",

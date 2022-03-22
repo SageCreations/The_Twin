@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorCoffeeTable","path":"sprites/SprMirrorCoffeeTable/SprMirrorCoffeeTable.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorCoffeeTable",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"left8","path":"sprites/left8/left8.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "left8",
     "tags": [],
     "resourceType": "GMSequence",

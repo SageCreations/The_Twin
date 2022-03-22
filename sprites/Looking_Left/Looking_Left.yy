@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Looking_Left","path":"sprites/Looking_Left/Looking_Left.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Looking_Left",
     "tags": [],
     "resourceType": "GMSequence",

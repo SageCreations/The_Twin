@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"mirrorFlowers","path":"sprites/mirrorFlowers/mirrorFlowers.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "mirrorFlowers",
     "tags": [],
     "resourceType": "GMSequence",

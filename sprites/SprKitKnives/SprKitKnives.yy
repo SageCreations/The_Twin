@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprKitKnives","path":"sprites/SprKitKnives/SprKitKnives.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprKitKnives",
     "tags": [],
     "resourceType": "GMSequence",

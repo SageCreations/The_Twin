@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Anim_Hand","path":"sprites/Anim_Hand/Anim_Hand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Anim_Hand",
     "tags": [],
     "resourceType": "GMSequence",

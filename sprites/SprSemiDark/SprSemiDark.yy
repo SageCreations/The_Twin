@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprSemiDark","path":"sprites/SprSemiDark/SprSemiDark.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprSemiDark",
     "tags": [],
     "resourceType": "GMSequence",

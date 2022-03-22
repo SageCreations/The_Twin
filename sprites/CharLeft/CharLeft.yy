@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"CharLeft","path":"sprites/CharLeft/CharLeft.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "CharLeft",
     "tags": [],
     "resourceType": "GMSequence",

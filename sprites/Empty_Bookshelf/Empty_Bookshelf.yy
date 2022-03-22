@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Empty_Bookshelf","path":"sprites/Empty_Bookshelf/Empty_Bookshelf.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Empty_Bookshelf",
     "tags": [],
     "resourceType": "GMSequence",

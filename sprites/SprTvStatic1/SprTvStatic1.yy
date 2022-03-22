@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprTvStatic1","path":"sprites/SprTvStatic1/SprTvStatic1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprTvStatic1",
     "tags": [],
     "resourceType": "GMSequence",

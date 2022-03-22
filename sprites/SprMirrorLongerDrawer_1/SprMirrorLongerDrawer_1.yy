@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorLongerDrawer_1","path":"sprites/SprMirrorLongerDrawer_1/SprMirrorLongerDrawer_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorLongerDrawer_1",
     "tags": [],
     "resourceType": "GMSequence",

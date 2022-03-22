@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorTallBookshelfBottomHalf_1","path":"sprites/SprMirrorTallBookshelfBottomHalf_1/SprMirrorTallBookshelfBottomHalf_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorTallBookshelfBottomHalf_1",
     "tags": [],
     "resourceType": "GMSequence",

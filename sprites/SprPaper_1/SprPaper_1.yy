@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprPaper_1","path":"sprites/SprPaper_1/SprPaper_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprPaper_1",
     "tags": [],
     "resourceType": "GMSequence",

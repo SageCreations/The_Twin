@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorStudyWall","path":"sprites/SprMirrorStudyWall/SprMirrorStudyWall.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorStudyWall",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorFridgeOpen","path":"sprites/SprMirrorFridgeOpen/SprMirrorFridgeOpen.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorFridgeOpen",
     "tags": [],
     "resourceType": "GMSequence",

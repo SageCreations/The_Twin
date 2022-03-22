@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprInteractText","path":"sprites/SprInteractText/SprInteractText.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprInteractText",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMicrowave","path":"sprites/SprMicrowave/SprMicrowave.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMicrowave",
     "tags": [],
     "resourceType": "GMSequence",

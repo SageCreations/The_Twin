@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Thank_you_for_playing","path":"sprites/Thank_you_for_playing/Thank_you_for_playing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Thank_you_for_playing",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprCreepyPainting2","path":"sprites/SprCreepyPainting2/SprCreepyPainting2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprCreepyPainting2",
     "tags": [],
     "resourceType": "GMSequence",

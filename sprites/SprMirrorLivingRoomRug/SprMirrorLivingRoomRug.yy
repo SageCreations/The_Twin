@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"SprMirrorLivingRoomRug","path":"sprites/SprMirrorLivingRoomRug/SprMirrorLivingRoomRug.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "SprMirrorLivingRoomRug",
     "tags": [],
     "resourceType": "GMSequence",

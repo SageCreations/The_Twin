@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Layer_1_copy_2","path":"sprites/Layer_1_copy_2/Layer_1_copy_2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Layer_1_copy_2",
     "tags": [],
     "resourceType": "GMSequence",

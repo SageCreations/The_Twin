@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"bed2","path":"sprites/bed2/bed2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "bed2",
     "tags": [],
     "resourceType": "GMSequence",

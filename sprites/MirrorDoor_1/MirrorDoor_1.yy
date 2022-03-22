@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"MirrorDoor_1","path":"sprites/MirrorDoor_1/MirrorDoor_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "MirrorDoor_1",
     "tags": [],
     "resourceType": "GMSequence",
