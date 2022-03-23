@@ -4,6 +4,8 @@ ObjChar23.playerPaused = true;
 global.speedTrig = true;
 moveTrig = false;
 
+
+
 myTextBox = noone;
 
 
